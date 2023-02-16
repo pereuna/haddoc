@@ -1,0 +1,5 @@
+SOLAS:
+
+If real record in file is bigger than rec[32000](8211lib);
+
+Long lines dissapear when zooming. There is no featureobj[] points in active area.

@@ -1,0 +1,15 @@
+this is a test presentation library for S52 symbols.
+
+testing:
+
+make gene
+make
+./test
+
+shell script 'generate' process c code and nessary header 
+files for test program.
+
+next:
+Symbol pivot points and rotation functions
+
+lapere@tp.spt.fi
