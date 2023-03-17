@@ -1,13 +1,15 @@
 #include <X11/Xlib.h>
 #include <X11/Xcms.h>
+#include <stdint.h>
+#include <inttypes.h>
 #include "color_names.h"
 #include "symbols.h"
 #include "glob.h"
 enum FTYP { AREA = 3, LINE = 2, POINT = 1 };
 int LS__ACHARE51(void)
 {
-    static int _param[] = { 108, 820, 3030, 503, 306, 568,
-	(int) "boundary of an anchorage area "
+     int _param[] = { 108, 820, 3030, 503, 306, 568,
+	(intptr_t) "boundary of an anchorage area "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -59,8 +61,8 @@ int LS__ACHARE51(void)
 
 int LS__ACHRES51(void)
 {
-    static int _param[] = { 108, 820, 2729, 503, 446, 572,
-	(int)
+     int _param[] = { 108, 820, 2729, 503, 446, 572,
+	(intptr_t)
 	    "boundary of an area where anchoring is prohibited or restricted "
     };
     XcmsColor A = CHMGD[color_theme];
@@ -121,8 +123,8 @@ int LS__ACHRES51(void)
 
 int LS__ADMARE01(void)
 {
-    static int _param[] = { 1904, 1468, 304, 150, 2105, 1470,
-	(int) "jurisdiction boundary "
+     int _param[] = { 1904, 1468, 304, 150, 2105, 1470,
+	(intptr_t) "jurisdiction boundary "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -140,8 +142,8 @@ int LS__ADMARE01(void)
 
 int LS__CBLARE51(void)
 {
-    static int _param[] = { 94, 834, 2739, 500, 295, 637,
-	(int) "boundary of a submarine cable area "
+     int _param[] = { 94, 834, 2739, 500, 295, 637,
+	(intptr_t) "boundary of a submarine cable area "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -184,8 +186,8 @@ int LS__CBLARE51(void)
 
 int LS__CBLSUB06(void)
 {
-    static int _param[] = { 448, 1274, 2293, 500, 692, 1050,
-	(int) "submarine cable "
+     int _param[] = { 448, 1274, 2293, 500, 692, 1050,
+	(intptr_t) "submarine cable "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -219,8 +221,8 @@ int LS__CBLSUB06(void)
 
 int LS__CHCRDEL1(void)
 {
-    static int _param[] = { 4636, 2650, 799, 804, 5179, 2251,
-	(int) "this line has been deleted by a manual update "
+     int _param[] = { 4636, 2650, 799, 804, 5179, 2251,
+	(intptr_t) "this line has been deleted by a manual update "
     };
     XcmsColor A = CHCOR[color_theme];
     attrsize = sizeof(_param);
@@ -234,8 +236,8 @@ int LS__CHCRDEL1(void)
 
 int LS__CHCRID01(void)
 {
-    static int _param[] = { 4483, 2650, 300, 300, 5424, 2498,
-	(int) "this line has been manually updated "
+     int _param[] = { 4483, 2650, 300, 300, 5424, 2498,
+	(intptr_t) "this line has been manually updated "
     };
     XcmsColor A = CHCOR[color_theme];
     attrsize = sizeof(_param);
@@ -249,8 +251,8 @@ int LS__CHCRID01(void)
 
 int LS__CTNARE51(void)
 {
-    static int _param[] = { 104, 830, 3030, 518, 298, 640,
-	(int) "boundary of area with a specific caution "
+     int _param[] = { 104, 830, 3030, 518, 298, 640,
+	(intptr_t) "boundary of area with a specific caution "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -299,8 +301,8 @@ int LS__CTNARE51(void)
 
 int LS__CTYARE51(void)
 {
-    static int _param[] = { 1298, 812, 600, 164, 1507, 812,
-	(int) "boundary of area to be navigated with caution "
+     int _param[] = { 1298, 812, 600, 164, 1507, 812,
+	(intptr_t) "boundary of area to be navigated with caution "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -319,8 +321,8 @@ int LS__CTYARE51(void)
 
 int LS__DWLDEF01(void)
 {
-    static int _param[] = { 1449, 1415, 2550, 526, 1596, 1192,
-	(int)
+     int _param[] = { 1449, 1415, 2550, 526, 1596, 1192,
+	(intptr_t)
 	    "deep water route centreline, direction not defined in the data "
     };
     XcmsColor A = TRFCD[color_theme];
@@ -400,8 +402,8 @@ int LS__DWLDEF01(void)
 
 int LS__DWRTCL05(void)
 {
-    static int _param[] = { 1449, 1415, 2550, 458, 1596, 1260,
-	(int)
+     int _param[] = { 1449, 1415, 2550, 458, 1596, 1260,
+	(intptr_t)
 	    "two-way deep water route centreline, not based on fixed marks "
     };
     XcmsColor A = TRFCD[color_theme];
@@ -454,8 +456,8 @@ int LS__DWRTCL05(void)
 
 int LS__DWRTCL06(void)
 {
-    static int _param[] = { 1449, 1415, 2550, 458, 1596, 1260,
-	(int) "two-way deep water route centreline, based on fixed marks "
+     int _param[] = { 1449, 1415, 2550, 458, 1596, 1260,
+	(intptr_t) "two-way deep water route centreline, based on fixed marks "
     };
     XcmsColor A = TRFCD[color_theme];
     attrsize = sizeof(_param);
@@ -499,8 +501,8 @@ int LS__DWRTCL06(void)
 
 int LS__DWRTCL07(void)
 {
-    static int _param[] = { 1449, 1415, 1860, 458, 1596, 1269,
-	(int)
+     int _param[] = { 1449, 1415, 1860, 458, 1596, 1269,
+	(intptr_t)
 	    "one-way deep water route centreline, not based on fixed marks "
     };
     XcmsColor A = TRFCD[color_theme];
@@ -544,8 +546,8 @@ int LS__DWRTCL07(void)
 
 int LS__DWRTCL08(void)
 {
-    static int _param[] = { 1449, 1415, 1860, 458, 1596, 1269,
-	(int) "one-way deep water route centreline, based on fixed-marks "
+     int _param[] = { 1449, 1415, 1860, 458, 1596, 1269,
+	(intptr_t) "one-way deep water route centreline, based on fixed-marks "
     };
     XcmsColor A = TRFCD[color_theme];
     attrsize = sizeof(_param);
@@ -584,8 +586,8 @@ int LS__DWRTCL08(void)
 
 int LS__DWRUTE51(void)
 {
-    static int _param[] = { 104, 830, 3030, 309, 298, 743,
-	(int) "boundary of a deep water route "
+     int _param[] = { 104, 830, 3030, 309, 298, 743,
+	(intptr_t) "boundary of a deep water route "
     };
     XcmsColor A = TRFCD[color_theme];
     attrsize = sizeof(_param);
@@ -638,8 +640,8 @@ int LS__DWRUTE51(void)
 
 int LS__ENTRES51(void)
 {
-    static int _param[] = { 138, 807, 2729, 578, 446, 522,
-	(int)
+     int _param[] = { 138, 807, 2729, 578, 446, 522,
+	(intptr_t)
 	    "boundary of an area where entry is prohibited or restricted "
     };
     XcmsColor A = CHMGD[color_theme];
@@ -690,8 +692,8 @@ int LS__ENTRES51(void)
 
 int LS__ERBLNA01(void)
 {
-    static int _param[] = { 1244, 1550, 2204, 0, 1459, 1555,
-	(int) "electronic bearing line, dash "
+     int _param[] = { 1244, 1550, 2204, 0, 1459, 1555,
+	(intptr_t) "electronic bearing line, dash "
     };
     XcmsColor A = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -709,8 +711,8 @@ int LS__ERBLNA01(void)
 
 int LS__ERBLNB01(void)
 {
-    static int _param[] = { 1249, 1552, 1407, 3, 1459, 1552,
-	(int) "electronic bearing line, dash dot "
+     int _param[] = { 1249, 1552, 1407, 3, 1459, 1552,
+	(intptr_t) "electronic bearing line, dash dot "
     };
     XcmsColor A = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -728,8 +730,8 @@ int LS__ERBLNB01(void)
 
 int LS__FERYRT01(void)
 {
-    static int _param[] = { 187, 853, 1999, 160, 387, 774,
-	(int) "ferry route "
+     int _param[] = { 187, 853, 1999, 160, 387, 774,
+	(intptr_t) "ferry route "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -760,8 +762,8 @@ int LS__FERYRT01(void)
 
 int LS__FERYRT02(void)
 {
-    static int _param[] = { 187, 853, 1999, 160, 387, 774,
-	(int) "cable ferry route "
+     int _param[] = { 187, 853, 1999, 160, 387, 774,
+	(intptr_t) "cable ferry route "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -792,8 +794,8 @@ int LS__FERYRT02(void)
 
 int LS__FSHFAC02(void)
 {
-    static int _param[] = { 687, 774, 202, 153, 687, 621,
-	(int) "fishing stakes "
+     int _param[] = { 687, 774, 202, 153, 687, 621,
+	(intptr_t) "fishing stakes "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -808,8 +810,8 @@ int LS__FSHFAC02(void)
 
 int LS__FSHRES51(void)
 {
-    static int _param[] = { 108, 820, 2691, 393, 446, 689,
-	(int)
+     int _param[] = { 108, 820, 2691, 393, 446, 689,
+	(intptr_t)
 	    "boundary of an area where trawling or fishing is prohibited or restricted "
     };
     XcmsColor A = CHMGD[color_theme];
@@ -888,8 +890,8 @@ int LS__FSHRES51(void)
 
 int LS__HODATA01(void)
 {
-    static int _param[] = { 787, 634, 601, 300, 788, 635,
-	(int) "boundary marking end of HO data "
+     int _param[] = { 787, 634, 601, 300, 788, 635,
+	(intptr_t) "boundary marking end of HO data "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -907,8 +909,8 @@ int LS__HODATA01(void)
 
 int LS__LOWACC01(void)
 {
-    static int _param[] = { 5305, 2650, 130, 79, 5476, 2607,
-	(int) "safety contour of low accuracy in position "
+     int _param[] = { 5305, 2650, 130, 79, 5476, 2607,
+	(intptr_t) "safety contour of low accuracy in position "
     };
     XcmsColor A = DEPSC[color_theme];
     attrsize = sizeof(_param);
@@ -925,8 +927,8 @@ int LS__LOWACC01(void)
 
 int LS__LOWACC11(void)
 {
-    static int _param[] = { 5305, 2650, 130, 79, 5476, 2607,
-	(int) "contour of low accuracy in position "
+     int _param[] = { 5305, 2650, 130, 79, 5476, 2607,
+	(intptr_t) "contour of low accuracy in position "
     };
     XcmsColor A = DEPCN[color_theme];
     attrsize = sizeof(_param);
@@ -943,8 +945,8 @@ int LS__LOWACC11(void)
 
 int LS__LOWACC21(void)
 {
-    static int _param[] = { 5305, 2650, 130, 79, 5476, 2607,
-	(int)
+     int _param[] = { 5305, 2650, 130, 79, 5476, 2607,
+	(intptr_t)
 	    "coastline or shoreline construction of low accuracy in position "
     };
     XcmsColor A = CSTLN[color_theme];
@@ -962,8 +964,8 @@ int LS__LOWACC21(void)
 
 int LS__LOWACC31(void)
 {
-    static int _param[] = { 5305, 2650, 130, 79, 5476, 2607,
-	(int) "area of wrecks or obstructions of low accuracy "
+     int _param[] = { 5305, 2650, 130, 79, 5476, 2607,
+	(intptr_t) "area of wrecks or obstructions of low accuracy "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -980,8 +982,8 @@ int LS__LOWACC31(void)
 
 int LS__LOWACC41(void)
 {
-    static int _param[] = { 5305, 2650, 130, 79, 5476, 2607,
-	(int) "danger line of low accuracy surrounding a foul area "
+     int _param[] = { 5305, 2650, 130, 79, 5476, 2607,
+	(intptr_t) "danger line of low accuracy surrounding a foul area "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -998,8 +1000,8 @@ int LS__LOWACC41(void)
 
 int LS__MARSYS51(void)
 {
-    static int _param[] = { 112, 843, 2558, 320, 109, 681,
-	(int)
+     int _param[] = { 112, 843, 2558, 320, 109, 681,
+	(intptr_t)
 	    "boundary between IALA-A and IALA-B systems of lateral buoys and beacons "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -1070,8 +1072,8 @@ int LS__MARSYS51(void)
 
 int LS__NAVARE51(void)
 {
-    static int _param[] = { 1298, 812, 600, 164, 1507, 812,
-	(int)
+     int _param[] = { 1298, 812, 600, 164, 1507, 812,
+	(intptr_t)
 	    "boundary of a navigation feature such as a fairway, magnetic anomaly, etc. "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -1091,8 +1093,8 @@ int LS__NAVARE51(void)
 
 int LS__PIPARE51(void)
 {
-    static int _param[] = { 93, 805, 3030, 221, 298, 772,
-	(int)
+     int _param[] = { 93, 805, 3030, 221, 298, 772,
+	(intptr_t)
 	    "boundary of a submarine pipeline area with potentially dangerous contents "
     };
     XcmsColor A = CHMGD[color_theme];
@@ -1138,8 +1140,8 @@ int LS__PIPARE51(void)
 
 int LS__PIPARE61(void)
 {
-    static int _param[] = { 93, 805, 3030, 221, 298, 772,
-	(int)
+     int _param[] = { 93, 805, 3030, 221, 298, 772,
+	(intptr_t)
 	    "boundary of a submarine pipeline area with generally non-dangerous contents "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -1185,8 +1187,8 @@ int LS__PIPARE61(void)
 
 int LS__PIPSOL05(void)
 {
-    static int _param[] = { 1729, 2199, 589, 190, 2087, 2104,
-	(int) "oil, gas pipeline, submerged or on land "
+     int _param[] = { 1729, 2199, 589, 190, 2087, 2104,
+	(intptr_t) "oil, gas pipeline, submerged or on land "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -1204,8 +1206,8 @@ int LS__PIPSOL05(void)
 
 int LS__PIPSOL06(void)
 {
-    static int _param[] = { 1731, 2197, 512, 114, 2087, 2140,
-	(int) "water pipeline, sewer, etc. "
+     int _param[] = { 1731, 2197, 512, 114, 2087, 2140,
+	(intptr_t) "water pipeline, sewer, etc. "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -1223,8 +1225,8 @@ int LS__PIPSOL06(void)
 
 int LS__PLNRTE03(void)
 {
-    static int _param[] = { 1603, 1434, 172, 172, 1738, 1343,
-	(int) "planned route for own ship "
+     int _param[] = { 1603, 1434, 172, 172, 1738, 1343,
+	(intptr_t) "planned route for own ship "
     };
     XcmsColor A = PLRTE[color_theme];
     attrsize = sizeof(_param);
@@ -1242,8 +1244,8 @@ int LS__PLNRTE03(void)
 
 int LS__PRCARE51(void)
 {
-    static int _param[] = { 104, 830, 2869, 503, 298, 595,
-	(int) "boundary of a precautionary area "
+     int _param[] = { 104, 830, 2869, 503, 298, 595,
+	(intptr_t) "boundary of a precautionary area "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -1294,8 +1296,8 @@ int LS__PRCARE51(void)
 
 int LS__QUESMRK1(void)
 {
-    static int _param[] = { 500, 1498, 1456, 443, 700, 1227,
-	(int)
+     int _param[] = { 500, 1498, 1456, 443, 700, 1227,
+	(intptr_t)
 	    "object which is not sufficiently described to be symbolized, or for which no symbol exists in the symbol library "
     };
     XcmsColor A = CHMGD[color_theme];
@@ -1349,8 +1351,8 @@ int LS__QUESMRK1(void)
 
 int LS__RCRDEF01(void)
 {
-    static int _param[] = { 1607, 1470, 2323, 537, 1601, 1204,
-	(int)
+     int _param[] = { 1607, 1470, 2323, 537, 1601, 1204,
+	(intptr_t)
 	    "regulated recommended route centreline, details not defined "
     };
     XcmsColor A = TRFCD[color_theme];
@@ -1442,8 +1444,8 @@ int LS__RCRDEF01(void)
 
 int LS__RCRTCL01(void)
 {
-    static int _param[] = { 1607, 1470, 2305, 523, 1607, 1209,
-	(int)
+     int _param[] = { 1607, 1470, 2305, 523, 1607, 1209,
+	(intptr_t)
 	    "regulated two-way recommended route centreline, not based on fixed marks "
     };
     XcmsColor A = TRFCD[color_theme];
@@ -1508,8 +1510,8 @@ int LS__RCRTCL01(void)
 
 int LS__RCRTCL02(void)
 {
-    static int _param[] = { 1607, 1470, 2305, 261, 1607, 1209,
-	(int)
+     int _param[] = { 1607, 1470, 2305, 261, 1607, 1209,
+	(intptr_t)
 	    "regulated one-way recommended route centreline, not based on fixed marks "
     };
     XcmsColor A = TRFCD[color_theme];
@@ -1557,8 +1559,8 @@ int LS__RCRTCL02(void)
 
 int LS__RCRTCL03(void)
 {
-    static int _param[] = { 1607, 1470, 2305, 523, 1607, 1209,
-	(int)
+     int _param[] = { 1607, 1470, 2305, 523, 1607, 1209,
+	(intptr_t)
 	    "regulated two-way recommended route centreline, based on fixed-marks "
     };
     XcmsColor A = TRFCD[color_theme];
@@ -1607,8 +1609,8 @@ int LS__RCRTCL03(void)
 
 int LS__RCRTCL04(void)
 {
-    static int _param[] = { 1607, 1470, 2305, 261, 1607, 1209,
-	(int)
+     int _param[] = { 1607, 1470, 2305, 261, 1607, 1209,
+	(intptr_t)
 	    "regulated one-way recommended route centreline, based on fixed marks "
     };
     XcmsColor A = TRFCD[color_theme];
@@ -1640,8 +1642,8 @@ int LS__RCRTCL04(void)
 
 int LS__RECDEF02(void)
 {
-    static int _param[] = { 932, 1415, 2220, 443, 1107, 1179,
-	(int)
+     int _param[] = { 932, 1415, 2220, 443, 1107, 1179,
+	(intptr_t)
 	    "non-regulated recommended track, direction not defined in data "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -1705,8 +1707,8 @@ int LS__RECDEF02(void)
 
 int LS__RECTRC09(void)
 {
-    static int _param[] = { 932, 1415, 2220, 310, 1107, 1260,
-	(int)
+     int _param[] = { 932, 1415, 2220, 310, 1107, 1260,
+	(intptr_t)
 	    "non-regulated recommended two-way track, not based on fixed marks "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -1743,8 +1745,8 @@ int LS__RECTRC09(void)
 
 int LS__RECTRC10(void)
 {
-    static int _param[] = { 1113, 1414, 2013, 310, 1113, 1259,
-	(int)
+     int _param[] = { 1113, 1414, 2013, 310, 1113, 1259,
+	(intptr_t)
 	    "non-regulated recommended two-way track, based on fixed-marks "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -1769,8 +1771,8 @@ int LS__RECTRC10(void)
 
 int LS__RECTRC11(void)
 {
-    static int _param[] = { 932, 1415, 1526, 310, 1107, 1260,
-	(int)
+     int _param[] = { 932, 1415, 1526, 310, 1107, 1260,
+	(intptr_t)
 	    "non-regulated recommended one-way track, not based on fixed marks "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -1798,8 +1800,8 @@ int LS__RECTRC11(void)
 
 int LS__RECTRC12(void)
 {
-    static int _param[] = { 1107, 1415, 1526, 310, 1107, 1260,
-	(int)
+     int _param[] = { 1107, 1415, 1526, 310, 1107, 1260,
+	(intptr_t)
 	    "non-regulated recommended one-way track, based on fixed marks "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -1819,8 +1821,8 @@ int LS__RECTRC12(void)
 
 int LS__RESARE51(void)
 {
-    static int _param[] = { 1904, 1468, 304, 150, 2105, 1470,
-	(int) "boundary of a restricted area "
+     int _param[] = { 1904, 1468, 304, 150, 2105, 1470,
+	(intptr_t) "boundary of a restricted area "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -1838,8 +1840,8 @@ int LS__RESARE51(void)
 
 int LS__SCLBDY51(void)
 {
-    static int _param[] = { 263, 598, 610, 244, 264, 597,
-	(int)
+     int _param[] = { 263, 598, 610, 244, 264, 597,
+	(intptr_t)
 	    "chart scale boundary, the double line indicates the larger scale "
     };
     XcmsColor A = CHGRF[color_theme];
@@ -1862,8 +1864,8 @@ int LS__SCLBDY51(void)
 
 int LS__TIDINF51(void)
 {
-    static int _param[] = { 104, 830, 3276, 336, 298, 656,
-	(int) "boundary of an area for which there is tidal information "
+     int _param[] = { 104, 830, 3276, 336, 298, 656,
+	(intptr_t) "boundary of an area for which there is tidal information "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -1941,8 +1943,8 @@ int LS__TIDINF51(void)
 
 int LS__UNITFTH1(void)
 {
-    static int _param[] = { 276, 644, 1109, 432, 276, 644,
-	(int) "change of depth unit line, bounds 'fathom depths' "
+     int _param[] = { 276, 644, 1109, 432, 276, 644,
+	(intptr_t) "change of depth unit line, bounds 'fathom depths' "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -1965,8 +1967,8 @@ int LS__UNITFTH1(void)
 
 int LS__UNITMTR1(void)
 {
-    static int _param[] = { 276, 644, 1109, 447, 276, 644,
-	(int) "change of depth unit line, bounds 'metre depths' "
+     int _param[] = { 276, 644, 1109, 447, 276, 644,
+	(intptr_t) "change of depth unit line, bounds 'metre depths' "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -1987,9 +1989,9 @@ int LS__UNITMTR1(void)
 
 int PT__AIRARE02(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 2000, 0, 2259, 2256, 618, 528, 435, 452,
-	(int) "pattern of symbols for an airport area "
+	(intptr_t) "pattern of symbols for an airport area "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -2016,9 +2018,9 @@ int PT__AIRARE02(void)
 
 int PT__DIAMOND1(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, LIN, CON, 0, 0, 2250, 2250, 2250, 4313, 1125, 93,
-	(int) "area of depth less than the safety contour "
+	(intptr_t) "area of depth less than the safety contour "
     };
     XcmsColor a = DEPCN[color_theme];
     attrsize = sizeof(_param);
@@ -2035,9 +2037,9 @@ int PT__DIAMOND1(void)
 
 int PT__DQUALA11(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 1400, 0, 2423, 1417, 1697, 1184, 1570, 856,
-	(int)
+	(intptr_t)
 	    "pattern of symbols for a chart of 5m accuracy with full seafloor coverage "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -2150,9 +2152,9 @@ int PT__DQUALA11(void)
 
 int PT__DQUALA21(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 1400, 0, 2401, 1247, 1697, 1184, 1570, 856,
-	(int)
+	(intptr_t)
 	    "pattern of symbols for a chart with 20m accuracy with full seafloor coverage "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -2253,9 +2255,9 @@ int PT__DQUALA21(void)
 
 int PT__DQUALB01(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 1400, 0, 2401, 1247, 1697, 1184, 1570, 856,
-	(int)
+	(intptr_t)
 	    "pattern of symbols for a chart with 50m accuracy from standard survey based on lines of continuous soundings "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -2344,9 +2346,9 @@ int PT__DQUALB01(void)
 
 int PT__DQUALC01(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 1600, 0, 2407, 1062, 1604, 430, 1591, 837,
-	(int) "pattern of symbols for a low accuracy or incomplete chart "
+	(intptr_t) "pattern of symbols for a low accuracy or incomplete chart "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -2429,9 +2431,9 @@ int PT__DQUALC01(void)
 
 int PT__DQUALD01(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 1600, 0, 2268, 1078, 1604, 430, 1466, 843,
-	(int) "pattern of symbols for an unreliable chart "
+	(intptr_t) "pattern of symbols for an unreliable chart "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -2502,9 +2504,9 @@ int PT__DQUALD01(void)
 
 int PT__DQUALU01(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 1600, 0, 2927, 1059, 1604, 430, 2124, 841,
-	(int) "pattern of symbols for a chart with quality not assessed "
+	(intptr_t) "pattern of symbols for a chart with quality not assessed "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -2564,9 +2566,9 @@ int PT__DQUALU01(void)
 
 int PT__DRGARE01(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, LIN, CON, 150, 0, 1500, 1500, 200, 200, 1500, 1300,
-	(int) "dredged area "
+	(intptr_t) "dredged area "
     };
     XcmsColor D = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -2583,9 +2585,9 @@ int PT__DRGARE01(void)
 
 int PT__FOULAR01(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, LIN, CON, 150, 0, 837, 728, 570, 684, 1020, 850,
-	(int) "foul area, not safe for navigation "
+	(intptr_t) "foul area, not safe for navigation "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -2612,9 +2614,9 @@ int PT__FOULAR01(void)
 
 int PT__FSHFAC03(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 2000, 0, 4643, 2168, 604, 151, 3135, 2173,
-	(int) "pattern of symbols for an area with fishing stakes "
+	(intptr_t) "pattern of symbols for an area with fishing stakes "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -2643,9 +2645,9 @@ int PT__FSHFAC03(void)
 
 int PT__FSHFAC04(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 2000, 0, 1753, 189, 511, 438, 492, 416,
-	(int)
+	(intptr_t)
 	    "pattern of symbols for an area with fish traps, fish weirs, tunny nets "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -2668,9 +2670,9 @@ int PT__FSHFAC04(void)
 
 int PT__FSHHAV02(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 2000, 0, 2200, 1470, 790, 320, 710, 1335,
-	(int) "pattern of symbols for a fish haven "
+	(intptr_t) "pattern of symbols for a fish haven "
     };
     XcmsColor E = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -2710,9 +2712,9 @@ int PT__FSHHAV02(void)
 
 int PT__ICEARE04(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, LIN, CON, 0, 0, 2250, 2250, 1434, 1331, 2381, 815,
-	(int) "continuous pattern for an ice area (glacier, etc.) "
+	(intptr_t) "continuous pattern for an ice area (glacier, etc.) "
     };
     XcmsColor E = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -2739,9 +2741,9 @@ int PT__ICEARE04(void)
 
 int PT__MARCUL02(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 2000, 0, 2409, 369, 705, 403, 416, 568,
-	(int) "pattern of symbols for a marine farm "
+	(intptr_t) "pattern of symbols for a marine farm "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -2809,9 +2811,9 @@ int PT__MARCUL02(void)
 
 int PT__MARSHES1(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 1500, 5000, 750, 1016, 400, 393, 550, 499,
-	(int) "pattern of symbols for a marsh "
+	(intptr_t) "pattern of symbols for a marsh "
     };
     XcmsColor A = CHBRN[color_theme];
     attrsize = sizeof(_param);
@@ -2842,9 +2844,9 @@ int PT__MARSHES1(void)
 
 int PT__NODATA03(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 100, 0, 2942, 1040, 602, 396, 2342, 645,
-	(int) "area of no chart data "
+	(intptr_t) "area of no chart data "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -2859,9 +2861,9 @@ int PT__NODATA03(void)
 
 int PT__OVERSC01(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, LIN, CON, 0, 0, 4243, 1227, 0, 400, 3443, 827,
-	(int)
+	(intptr_t)
 	    "overscale part of a display containing data from more than one navigation purpose "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -2877,9 +2879,9 @@ int PT__OVERSC01(void)
 
 int PT__PRTSUR01(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 1000, 0, 2347, 640, 201, 0, 2448, 741,
-	(int) "incompletely surveyed area "
+	(intptr_t) "incompletely surveyed area "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -2894,9 +2896,9 @@ int PT__PRTSUR01(void)
 
 int PT__QUESMRK1(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 2000, 0, 1676, 1501, 220, 443, 1568, 1227,
-	(int)
+	(intptr_t)
 	    "pattern of symbols for an area which is not sufficiently described to be symbolized, or for which no symbol exists in the symbol library "
     };
     XcmsColor A = CHMGD[color_theme];
@@ -2939,9 +2941,9 @@ int PT__QUESMRK1(void)
 
 int PT__RCKLDG01(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, LIN, CON, 0, 0, 2319, 2152, 1541, 1332, 2325, 814,
-	(int) "rock or coral drying ledges "
+	(intptr_t) "rock or coral drying ledges "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -3008,9 +3010,9 @@ int PT__RCKLDG01(void)
 
 int PT__SNDWAV01(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 2000, 0, 29, 499, 1179, 179, 37, 316,
-	(int) "pattern of symbols for sand waves "
+	(intptr_t) "pattern of symbols for sand waves "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -3044,8 +3046,8 @@ int PT__SNDWAV01(void)
 
 int PT__TSSJCT02(void)
 {
-    static int _param[] = { V, LIN, CON, 0, 0, 750, 750, 500, 500, 750, 250 + 25,	//FIXME
-	(int)
+     int _param[] = { V, LIN, CON, 0, 0, 750, 750, 500, 500, 750, 250 + 25,	//FIXME
+	(intptr_t)
 	    "precautionary area or a traffic separation scheme crossing or roundabout "
     };
     XcmsColor U = TRFCF[color_theme];
@@ -3061,9 +3063,9 @@ int PT__TSSJCT02(void)
 
 int PT__VEGATN03(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 1000, 0, 749, 746, 362, 399, 574, 348,
-	(int) "pattern of symbols for wooded areas "
+	(intptr_t) "pattern of symbols for wooded areas "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -3102,9 +3104,9 @@ int PT__VEGATN03(void)
 
 int PT__VEGATN04(void)
 {
-    static int _param[] =
+     int _param[] =
 	{ V, STG, CON, 1000, 0, 750, 750, 400, 300, 550, 450,
-	(int) "pattern of symbols for mangroves "
+	(intptr_t) "pattern of symbols for mangroves "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -3127,8 +3129,8 @@ int PT__VEGATN04(void)
 
 int SY__ACHARE02(int orient)
 {
-    static int _param[] = { V, 1267, 1052, 402, 503, 1061, 789,
-	(int)
+     int _param[] = { V, 1267, 1052, 402, 503, 1061, 789,
+	(intptr_t)
 	    "anchorage area as a point at small scale, or anchor points of mooring trot at large scale "
     };
     XcmsColor A = CHMGD[color_theme];
@@ -3155,8 +3157,8 @@ int SY__ACHARE02(int orient)
 
 int SY__ACHARE51(int orient)
 {
-    static int _param[] = { V, 2250, 2250, 1229, 1304, 1621, 1471,
-	(int) "anchorage area "
+     int _param[] = { V, 2250, 2250, 1229, 1304, 1621, 1471,
+	(intptr_t) "anchorage area "
     };
     XcmsColor J = CHMGF[color_theme];
     attrsize = sizeof(_param);
@@ -3192,8 +3194,8 @@ int SY__ACHARE51(int orient)
 
 int SY__ACHBRT07(int orient)
 {
-    static int _param[] = { V, 1264, 1062, 506, 506, 1010, 783,
-	(int) "designated anchor berth for a single vessel "
+     int _param[] = { V, 1264, 1062, 506, 506, 1010, 783,
+	(intptr_t) "designated anchor berth for a single vessel "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -3227,8 +3229,8 @@ int SY__ACHBRT07(int orient)
 
 int SY__ACHRES51(int orient)
 {
-    static int _param[] = { V, 981, 958, 1229, 1304, 1621, 1471,
-	(int) "area where anchoring is prohibited or restricted "
+     int _param[] = { V, 981, 958, 1229, 1304, 1621, 1471,
+	(intptr_t) "area where anchoring is prohibited or restricted "
     };
     XcmsColor A = CHMGF[color_theme];
     attrsize = sizeof(_param);
@@ -3268,8 +3270,8 @@ int SY__ACHRES51(int orient)
 
 int SY__ACHRES61(int orient)
 {
-    static int _param[] = { V, 981, 958, 1435, 1304, 1621, 1471,
-	(int)
+     int _param[] = { V, 981, 958, 1435, 1304, 1621, 1471,
+	(intptr_t)
 	    "area where anchoring is prohibited or restricted, with other cautions "
     };
     XcmsColor A = CHMGF[color_theme], C = CHMGD[color_theme];
@@ -3318,8 +3320,8 @@ int SY__ACHRES61(int orient)
 
 int SY__ACHRES71(int orient)
 {
-    static int _param[] = { V, 981, 958, 1447, 1304, 1403, 1471,
-	(int)
+     int _param[] = { V, 981, 958, 1447, 1304, 1403, 1471,
+	(intptr_t)
 	    "area where anchoring is prohibited or restricted, with other information "
     };
     XcmsColor A = CHMGF[color_theme], C = CHMGD[color_theme];
@@ -3373,8 +3375,8 @@ int SY__ACHRES71(int orient)
 
 int SY__AIRARE02(int orient)
 {
-    static int _param[] = { V, 749, 750, 796, 796, 351, 352,
-	(int) "symbol for airport as a point "
+     int _param[] = { V, 749, 750, 796, 796, 351, 352,
+	(intptr_t) "symbol for airport as a point "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -3406,8 +3408,8 @@ int SY__AIRARE02(int orient)
 
 int SY__AISDEF01(int orient)
 {
-    static int _param[] = { V, 472, 1050, 562, 751, 345, 391,
-	(int) "target whose heading and course are both unknown "
+     int _param[] = { V, 472, 1050, 562, 751, 345, 391,
+	(intptr_t) "target whose heading and course are both unknown "
     };
     XcmsColor A = ARPAT[color_theme], C = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -3464,8 +3466,8 @@ int SY__AISDEF01(int orient)
 
 int SY__AISONE01(int orient)
 {
-    static int _param[] = { V, 7371, 1615, 405, 171, 7174, 1445,
-	(int) "one minute mark for AIS vector "
+     int _param[] = { V, 7371, 1615, 405, 171, 7174, 1445,
+	(intptr_t) "one minute mark for AIS vector "
     };
     XcmsColor A = ARPAT[color_theme];
     attrsize = sizeof(_param);
@@ -3483,8 +3485,8 @@ int SY__AISONE01(int orient)
 
 int SY__AISSIX01(int orient)
 {
-    static int _param[] = { V, 7371, 1657, 405, 214, 7173, 1445,
-	(int) "six minute mark for AIS vector "
+     int _param[] = { V, 7371, 1657, 405, 214, 7173, 1445,
+	(intptr_t) "six minute mark for AIS vector "
     };
     XcmsColor A = ARPAT[color_theme];
     attrsize = sizeof(_param);
@@ -3506,8 +3508,8 @@ int SY__AISSIX01(int orient)
 
 int SY__AISSLP01(int orient)
 {
-    static int _param[] = { V, 472, 1050, 253, 751, 345, 391,
-	(int) "sleeping AIS target "
+     int _param[] = { V, 472, 1050, 253, 751, 345, 391,
+	(intptr_t) "sleeping AIS target "
     };
     XcmsColor A = ARPAT[color_theme];
     attrsize = sizeof(_param);
@@ -3533,8 +3535,8 @@ int SY__AISSLP01(int orient)
 
 int SY__AISVES01(int orient)
 {
-    static int _param[] = { V, 495, 1050, 499, 1248, 245, 51,
-	(int) "active AIS target showing vector and/or heading "
+     int _param[] = { V, 495, 1050, 499, 1248, 245, 51,
+	(intptr_t) "active AIS target showing vector and/or heading "
     };
     XcmsColor A = ARPAT[color_theme];
     attrsize = sizeof(_param);
@@ -3560,8 +3562,8 @@ int SY__AISVES01(int orient)
 
 int SY__ARPATG01(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 500, 500, 1250, 1250,
-	(int) "target "
+     int _param[] = { V, 1500, 1500, 500, 500, 1250, 1250,
+	(intptr_t) "target "
     };
     XcmsColor e = ARPAT[color_theme];
     attrsize = sizeof(_param);
@@ -3583,8 +3585,8 @@ int SY__ARPATG01(int orient)
 
 int SY__ARPONE01(int orient)
 {
-    static int _param[] = { V, 5033, 2167, 394, 0, 4828, 2167,
-	(int) "one minute mark on ARPA vector "
+     int _param[] = { V, 5033, 2167, 394, 0, 4828, 2167,
+	(intptr_t) "one minute mark on ARPA vector "
     };
     XcmsColor A = ARPAT[color_theme];
     attrsize = sizeof(_param);
@@ -3600,8 +3602,8 @@ int SY__ARPONE01(int orient)
 
 int SY__ARPSIX01(int orient)
 {
-    static int _param[] = { V, 5384, 2145, 397, 0, 5189, 2146,
-	(int) "six minute mark on ARPA vector "
+     int _param[] = { V, 5384, 2145, 397, 0, 5189, 2146,
+	(intptr_t) "six minute mark on ARPA vector "
     };
     XcmsColor A = ARPAT[color_theme];
     attrsize = sizeof(_param);
@@ -3617,8 +3619,8 @@ int SY__ARPSIX01(int orient)
 
 int SY__BCNCAR01(int orient)
 {
-    static int _param[] = { V, 750, 750, 402, 612, 550, 445,
-	(int) "cardinal beacon, north, simplified "
+     int _param[] = { V, 750, 750, 402, 612, 550, 445,
+	(intptr_t) "cardinal beacon, north, simplified "
     };
     XcmsColor m = OUTLW[color_theme], H = CHYLW[color_theme];
     attrsize = sizeof(_param);
@@ -3652,8 +3654,8 @@ int SY__BCNCAR01(int orient)
 
 int SY__BCNCAR02(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 660, 550, 420,
-	(int) "cardinal beacon, east, simplified "
+     int _param[] = { V, 750, 750, 400, 660, 550, 420,
+	(intptr_t) "cardinal beacon, east, simplified "
     };
     XcmsColor m = OUTLW[color_theme], H = CHYLW[color_theme];
     attrsize = sizeof(_param);
@@ -3687,8 +3689,8 @@ int SY__BCNCAR02(int orient)
 
 int SY__BCNCAR03(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 610, 550, 445,
-	(int) "cardinal beacon, south, simplified "
+     int _param[] = { V, 750, 750, 400, 610, 550, 445,
+	(intptr_t) "cardinal beacon, south, simplified "
     };
     XcmsColor m = OUTLW[color_theme], H = CHYLW[color_theme];
     attrsize = sizeof(_param);
@@ -3722,8 +3724,8 @@ int SY__BCNCAR03(int orient)
 
 int SY__BCNCAR04(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 610, 550, 445,
-	(int) "cardinal beacon, west, simplified "
+     int _param[] = { V, 750, 750, 400, 610, 550, 445,
+	(intptr_t) "cardinal beacon, west, simplified "
     };
     XcmsColor m = OUTLW[color_theme], H = CHYLW[color_theme];
     attrsize = sizeof(_param);
@@ -3757,8 +3759,8 @@ int SY__BCNCAR04(int orient)
 
 int SY__BCNDEF13(int orient)
 {
-    static int _param[] = { V, 1238, 1452, 527, 446, 1135, 1234,
-	(int) "default symbol for a beacon, simplified "
+     int _param[] = { V, 1238, 1452, 527, 446, 1135, 1234,
+	(intptr_t) "default symbol for a beacon, simplified "
     };
     XcmsColor A = CHMGD[color_theme], C = CHGRD[color_theme], D =
 	OUTLW[color_theme];
@@ -3828,8 +3830,8 @@ int SY__BCNDEF13(int orient)
 
 int SY__BCNGEN01(int orient)
 {
-    static int _param[] = { V, 750, 750, 300, 515, 600, 300,
-	(int) "beacon in general, paper-chart "
+     int _param[] = { V, 750, 750, 300, 515, 600, 300,
+	(intptr_t) "beacon in general, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -3857,8 +3859,8 @@ int SY__BCNGEN01(int orient)
 
 int SY__BCNGEN03(int orient)
 {
-    static int _param[] = { V, 1231, 1634, 593, 500, 1081, 1188,
-	(int) "default symbol for beacon, paper-chart "
+     int _param[] = { V, 1231, 1634, 593, 500, 1081, 1188,
+	(intptr_t) "default symbol for beacon, paper-chart "
     };
     XcmsColor A = CHMGD[color_theme], C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -3913,8 +3915,8 @@ int SY__BCNGEN03(int orient)
 
 int SY__BCNISD21(int orient)
 {
-    static int _param[] = { V, 1493, 623, 222, 544, 1381, 354,
-	(int) "isolated danger beacon, simplified "
+     int _param[] = { V, 1493, 623, 222, 544, 1381, 354,
+	(intptr_t) "isolated danger beacon, simplified "
     };
     XcmsColor A = OUTLW[color_theme], C = CHRED[color_theme];
     attrsize = sizeof(_param);
@@ -3950,8 +3952,8 @@ int SY__BCNISD21(int orient)
 
 int SY__BCNLAT15(int orient)
 {
-    static int _param[] = { V, 600, 850, 200, 400, 500, 650,
-	(int) "major lateral beacon, red, simplified "
+     int _param[] = { V, 600, 850, 200, 400, 500, 650,
+	(intptr_t) "major lateral beacon, red, simplified "
     };
     XcmsColor F = CHRED[color_theme], m = OUTLW[color_theme];
     attrsize = sizeof(_param);
@@ -3985,8 +3987,8 @@ int SY__BCNLAT15(int orient)
 
 int SY__BCNLAT16(int orient)
 {
-    static int _param[] = { V, 750, 750, 200, 400, 650, 550,
-	(int) "major lateral beacon, green, simplified "
+     int _param[] = { V, 750, 750, 200, 400, 650, 550,
+	(intptr_t) "major lateral beacon, green, simplified "
     };
     XcmsColor G = CHGRN[color_theme], m = OUTLW[color_theme];
     attrsize = sizeof(_param);
@@ -4020,8 +4022,8 @@ int SY__BCNLAT16(int orient)
 
 int SY__BCNLAT21(int orient)
 {
-    static int _param[] = { V, 413, 756, 133, 500, 347, 505,
-	(int) "minor lateral beacon, red, simplified "
+     int _param[] = { V, 413, 756, 133, 500, 347, 505,
+	(intptr_t) "minor lateral beacon, red, simplified "
     };
     XcmsColor a = OUTLW[color_theme], b = CHRED[color_theme];
     attrsize = sizeof(_param);
@@ -4059,8 +4061,8 @@ int SY__BCNLAT21(int orient)
 
 int SY__BCNLAT22(int orient)
 {
-    static int _param[] = { V, 413, 756, 133, 500, 347, 505,
-	(int) "minor lateral beacon, green, simplified "
+     int _param[] = { V, 413, 756, 133, 500, 347, 505,
+	(intptr_t) "minor lateral beacon, green, simplified "
     };
     XcmsColor a = OUTLW[color_theme], b = CHGRN[color_theme];
     attrsize = sizeof(_param);
@@ -4098,8 +4100,8 @@ int SY__BCNLAT22(int orient)
 
 int SY__BCNLTC01(int orient)
 {
-    static int _param[] = { V, 750, 750, 500, 518, 500, 300,
-	(int) "lattice beacon, paper-chart "
+     int _param[] = { V, 750, 750, 500, 518, 500, 300,
+	(intptr_t) "lattice beacon, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -4133,8 +4135,8 @@ int SY__BCNLTC01(int orient)
 
 int SY__BCNSAW13(int orient)
 {
-    static int _param[] = { V, 750, 750, 200, 400, 650, 550,
-	(int) "major safe water beacon, simplified "
+     int _param[] = { V, 750, 750, 200, 400, 650, 550,
+	(intptr_t) "major safe water beacon, simplified "
     };
     XcmsColor C = CHBLK[color_theme], m = OUTLW[color_theme], B =
 	DEPVS[color_theme];
@@ -4169,8 +4171,8 @@ int SY__BCNSAW13(int orient)
 
 int SY__BCNSAW21(int orient)
 {
-    static int _param[] = { V, 413, 756, 133, 500, 347, 505,
-	(int) "minor safe water beacon, simplified "
+     int _param[] = { V, 413, 756, 133, 500, 347, 505,
+	(intptr_t) "minor safe water beacon, simplified "
     };
     XcmsColor a = OUTLW[color_theme], b = CHBLK[color_theme], B =
 	DEPVS[color_theme];
@@ -4209,8 +4211,8 @@ int SY__BCNSAW21(int orient)
 
 int SY__BCNSPP13(int orient)
 {
-    static int _param[] = { V, 750, 750, 200, 400, 650, 550,
-	(int) "major special purpose beacon, simplified "
+     int _param[] = { V, 750, 750, 200, 400, 650, 550,
+	(intptr_t) "major special purpose beacon, simplified "
     };
     XcmsColor H = CHYLW[color_theme], m = OUTLW[color_theme];
     attrsize = sizeof(_param);
@@ -4244,8 +4246,8 @@ int SY__BCNSPP13(int orient)
 
 int SY__BCNSPP21(int orient)
 {
-    static int _param[] = { V, 413, 756, 133, 500, 347, 505,
-	(int) "minor special purpose beacon, simplified "
+     int _param[] = { V, 413, 756, 133, 500, 347, 505,
+	(intptr_t) "minor special purpose beacon, simplified "
     };
     XcmsColor a = OUTLW[color_theme], b = CHYLW[color_theme];
     attrsize = sizeof(_param);
@@ -4283,8 +4285,8 @@ int SY__BCNSPP21(int orient)
 
 int SY__BCNSTK02(int orient)
 {
-    static int _param[] = { V, 750, 750, 250, 451, 625, 299,
-	(int) "minor, stake or pole beacon, paper-chart "
+     int _param[] = { V, 750, 750, 250, 451, 625, 299,
+	(intptr_t) "minor, stake or pole beacon, paper-chart "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -4304,8 +4306,8 @@ int SY__BCNSTK02(int orient)
 
 int SY__BCNTOW01(int orient)
 {
-    static int _param[] = { V, 750, 750, 500, 520, 500, 300,
-	(int) "beacon tower, paper-chart "
+     int _param[] = { V, 750, 750, 500, 520, 500, 300,
+	(intptr_t) "beacon tower, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -4330,8 +4332,8 @@ int SY__BCNTOW01(int orient)
 
 int SY__BLKADJ01(int orient)
 {
-    static int _param[] = { V, 7002, 2502, 2, 0, 3700, 8239,
-	(int)
+     int _param[] = { V, 7002, 2502, 2, 0, 3700, 8239,
+	(intptr_t)
 	    "symbol to be used for checking and adjusting the brightness and contrast controls "
     };
     XcmsColor A = BKAJ1[color_theme], B = BKAJ2[color_theme];
@@ -4366,8 +4368,8 @@ int SY__BLKADJ01(int orient)
 
 int SY__BOYBAR01(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 615, 440, 1145, 1110,
-	(int) "barrel buoy, paper-chart "
+     int _param[] = { V, 1500, 1500, 615, 440, 1145, 1110,
+	(intptr_t) "barrel buoy, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -4413,8 +4415,8 @@ int SY__BOYBAR01(int orient)
 
 int SY__BOYCAN01(int orient)
 {
-    static int _param[] = { V, 750, 750, 616, 394, 462, 415,
-	(int) "can buoy, paper-chart "
+     int _param[] = { V, 750, 750, 616, 394, 462, 415,
+	(intptr_t) "can buoy, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -4439,8 +4441,8 @@ int SY__BOYCAN01(int orient)
 
 int SY__BOYCAR01(int orient)
 {
-    static int _param[] = { V, 750, 750, 416, 616, 484, 437,
-	(int) "cardinal buoy, north, simplified "
+     int _param[] = { V, 750, 750, 416, 616, 484, 437,
+	(intptr_t) "cardinal buoy, north, simplified "
     };
     XcmsColor H = CHYLW[color_theme], m = OUTLW[color_theme];
     attrsize = sizeof(_param);
@@ -4474,8 +4476,8 @@ int SY__BOYCAR01(int orient)
 
 int SY__BOYCAR02(int orient)
 {
-    static int _param[] = { V, 765, 750, 365, 660, 585, 420,
-	(int) "cardinal buoy, east, simplified "
+     int _param[] = { V, 765, 750, 365, 660, 585, 420,
+	(intptr_t) "cardinal buoy, east, simplified "
     };
     XcmsColor m = OUTLW[color_theme], H = CHYLW[color_theme];
     attrsize = sizeof(_param);
@@ -4509,8 +4511,8 @@ int SY__BOYCAR02(int orient)
 
 int SY__BOYCAR03(int orient)
 {
-    static int _param[] = { V, 715, 750, 415, 610, 595, 445,
-	(int) "cardinal buoy, south, simplified "
+     int _param[] = { V, 715, 750, 415, 610, 595, 445,
+	(intptr_t) "cardinal buoy, south, simplified "
     };
     XcmsColor m = OUTLW[color_theme], H = CHYLW[color_theme];
     attrsize = sizeof(_param);
@@ -4545,8 +4547,8 @@ int SY__BOYCAR03(int orient)
 
 int SY__BOYCAR04(int orient)
 {
-    static int _param[] = { V, 750, 750, 607, 610, 445, 445,
-	(int) "cardinal buoy, west, simplified "
+     int _param[] = { V, 750, 750, 607, 610, 445, 445,
+	(intptr_t) "cardinal buoy, west, simplified "
     };
     XcmsColor m = OUTLW[color_theme], H = CHYLW[color_theme];
     attrsize = sizeof(_param);
@@ -4580,8 +4582,8 @@ int SY__BOYCAR04(int orient)
 
 int SY__BOYCON01(int orient)
 {
-    static int _param[] = { V, 750, 750, 575, 494, 462, 312,
-	(int) "conical buoy, paper-chart "
+     int _param[] = { V, 750, 750, 575, 494, 462, 312,
+	(intptr_t) "conical buoy, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -4617,8 +4619,8 @@ int SY__BOYCON01(int orient)
 
 int SY__BOYDEF03(int orient)
 {
-    static int _param[] = { V, 1236, 1429, 721, 443, 1033, 1203,
-	(int) "default symbol for buoy, simplified "
+     int _param[] = { V, 1236, 1429, 721, 443, 1033, 1203,
+	(intptr_t) "default symbol for buoy, simplified "
     };
     XcmsColor A = CHMGD[color_theme], C = CHGRD[color_theme], D =
 	OUTLW[color_theme];
@@ -4682,8 +4684,8 @@ int SY__BOYDEF03(int orient)
 
 int SY__BOYGEN03(int orient)
 {
-    static int _param[] = { V, 1236, 1684, 765, 474, 970, 1263,
-	(int) "default symbol for buoy, paper-chart "
+     int _param[] = { V, 1236, 1684, 765, 474, 970, 1263,
+	(intptr_t) "default symbol for buoy, paper-chart "
     };
     XcmsColor A = CHMGD[color_theme], C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -4742,8 +4744,8 @@ int SY__BOYGEN03(int orient)
 
 int SY__BOYINB01(int orient)
 {
-    static int _param[] = { V, 750, 750, 857, 499, 321, 316,
-	(int) "installation buoy, paper-chart "
+     int _param[] = { V, 750, 750, 857, 499, 321, 316,
+	(intptr_t) "installation buoy, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -4769,8 +4771,8 @@ int SY__BOYINB01(int orient)
 
 int SY__BOYISD12(int orient)
 {
-    static int _param[] = { V, 1554, 624, 384, 544, 1366, 353,
-	(int) "isolated danger buoy, simplified "
+     int _param[] = { V, 1554, 624, 384, 544, 1366, 353,
+	(intptr_t) "isolated danger buoy, simplified "
     };
     XcmsColor A = OUTLW[color_theme], C = CHRED[color_theme];
     attrsize = sizeof(_param);
@@ -4806,8 +4808,8 @@ int SY__BOYISD12(int orient)
 
 int SY__BOYLAT13(int orient)
 {
-    static int _param[] = { V, 1033, 960, 433, 439, 724, 663,
-	(int) "conical lateral buoy, green, simplified "
+     int _param[] = { V, 1033, 960, 433, 439, 724, 663,
+	(intptr_t) "conical lateral buoy, green, simplified "
     };
     XcmsColor A = CHGRN[color_theme], B = OUTLW[color_theme];
     attrsize = sizeof(_param);
@@ -4843,8 +4845,8 @@ int SY__BOYLAT13(int orient)
 
 int SY__BOYLAT14(int orient)
 {
-    static int _param[] = { V, 1033, 960, 433, 439, 724, 663,
-	(int) "conical lateral buoy, red, simplified "
+     int _param[] = { V, 1033, 960, 433, 439, 724, 663,
+	(intptr_t) "conical lateral buoy, red, simplified "
     };
     XcmsColor A = CHRED[color_theme], b = OUTLW[color_theme];
     attrsize = sizeof(_param);
@@ -4880,8 +4882,8 @@ int SY__BOYLAT14(int orient)
 
 int SY__BOYLAT23(int orient)
 {
-    static int _param[] = { V, 774, 690, 528, 399, 499, 499,
-	(int) "can shape lateral buoy, green, simplified "
+     int _param[] = { V, 774, 690, 528, 399, 499, 499,
+	(intptr_t) "can shape lateral buoy, green, simplified "
     };
     XcmsColor A = CHGRN[color_theme], B = OUTLW[color_theme];
     attrsize = sizeof(_param);
@@ -4919,8 +4921,8 @@ int SY__BOYLAT23(int orient)
 
 int SY__BOYLAT24(int orient)
 {
-    static int _param[] = { V, 774, 690, 528, 400, 499, 499,
-	(int) "can shape lateral buoy, red, simplified "
+     int _param[] = { V, 774, 690, 528, 400, 499, 499,
+	(intptr_t) "can shape lateral buoy, red, simplified "
     };
     XcmsColor A = CHRED[color_theme], b = OUTLW[color_theme];
     attrsize = sizeof(_param);
@@ -4958,8 +4960,8 @@ int SY__BOYLAT24(int orient)
 
 int SY__BOYMOR01(int orient)
 {
-    static int _param[] = { V, 750, 750, 610, 580, 405, 230,
-	(int) "mooring buoy, barrel shape, paper-chart "
+     int _param[] = { V, 750, 750, 610, 580, 405, 230,
+	(intptr_t) "mooring buoy, barrel shape, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5010,8 +5012,8 @@ int SY__BOYMOR01(int orient)
 
 int SY__BOYMOR03(int orient)
 {
-    static int _param[] = { V, 750, 750, 616, 556, 465, 259,
-	(int) "mooring buoy, can shape, paper-chart "
+     int _param[] = { V, 750, 750, 616, 556, 465, 259,
+	(intptr_t) "mooring buoy, can shape, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5038,8 +5040,8 @@ int SY__BOYMOR03(int orient)
 
 int SY__BOYMOR11(int orient)
 {
-    static int _param[] = { V, 748, 570, 759, 350, 368, 395,
-	(int) "installation buoy and mooring buoy, simplified "
+     int _param[] = { V, 748, 570, 759, 350, 368, 395,
+	(intptr_t) "installation buoy and mooring buoy, simplified "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5070,8 +5072,8 @@ int SY__BOYMOR11(int orient)
 
 int SY__BOYPIL01(int orient)
 {
-    static int _param[] = { V, 750, 750, 597, 491, 443, 318,
-	(int) "pillar buoy, paper-chart "
+     int _param[] = { V, 750, 750, 597, 491, 443, 318,
+	(intptr_t) "pillar buoy, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5098,8 +5100,8 @@ int SY__BOYPIL01(int orient)
 
 int SY__BOYSAW12(int orient)
 {
-    static int _param[] = { V, 750, 750, 406, 406, 547, 547,
-	(int) "safe water buoy, simplified "
+     int _param[] = { V, 750, 750, 406, 406, 547, 547,
+	(intptr_t) "safe water buoy, simplified "
     };
     XcmsColor C = CHRED[color_theme], m = OUTLW[color_theme];
     attrsize = sizeof(_param);
@@ -5130,8 +5132,8 @@ int SY__BOYSAW12(int orient)
 
 int SY__BOYSPH01(int orient)
 {
-    static int _param[] = { V, 734, 750, 565, 491, 456, 312,
-	(int) "spherical buoy, paper-chart "
+     int _param[] = { V, 734, 750, 565, 491, 456, 312,
+	(intptr_t) "spherical buoy, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5173,8 +5175,8 @@ int SY__BOYSPH01(int orient)
 
 int SY__BOYSPP11(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 400, 550, 550,
-	(int) "special purpose buoy, simplified "
+     int _param[] = { V, 750, 750, 400, 400, 550, 550,
+	(intptr_t) "special purpose buoy, simplified "
     };
     XcmsColor H = CHYLW[color_theme], m = OUTLW[color_theme];
     attrsize = sizeof(_param);
@@ -5205,8 +5207,8 @@ int SY__BOYSPP11(int orient)
 
 int SY__BOYSPP15(int orient)
 {
-    static int _param[] = { V, 1013, 962, 433, 439, 724, 663,
-	(int)
+     int _param[] = { V, 1013, 962, 433, 439, 724, 663,
+	(intptr_t)
 	    "special purpose TSS buoy marking the starboard side of the traffic lane, simplified "
     };
     XcmsColor A = CHYLW[color_theme], B = OUTLW[color_theme];
@@ -5243,8 +5245,8 @@ int SY__BOYSPP15(int orient)
 
 int SY__BOYSPP25(int orient)
 {
-    static int _param[] = { V, 774, 690, 528, 400, 499, 499,
-	(int)
+     int _param[] = { V, 774, 690, 528, 400, 499, 499,
+	(intptr_t)
 	    "special purpose TSS buoy marking the port side of the traffic lane, simplified "
     };
     XcmsColor A = CHYLW[color_theme], B = OUTLW[color_theme];
@@ -5283,8 +5285,8 @@ int SY__BOYSPP25(int orient)
 
 int SY__BOYSPR01(int orient)
 {
-    static int _param[] = { V, 750, 750, 287, 491, 603, 318,
-	(int) "spar buoy, paper-chart "
+     int _param[] = { V, 750, 750, 287, 491, 603, 318,
+	(intptr_t) "spar buoy, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5311,8 +5313,8 @@ int SY__BOYSPR01(int orient)
 
 int SY__BOYSUP01(int orient)
 {
-    static int _param[] = { V, 750, 750, 857, 540, 321, 275,
-	(int) "super-buoy, paper-chart "
+     int _param[] = { V, 750, 750, 857, 540, 321, 275,
+	(intptr_t) "super-buoy, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5339,8 +5341,8 @@ int SY__BOYSUP01(int orient)
 
 int SY__BOYSUP02(int orient)
 {
-    static int _param[] = { V, 749, 513, 767, 475, 365, 275,
-	(int) "super-buoy ODAS & LANBY, simplified "
+     int _param[] = { V, 749, 513, 767, 475, 365, 275,
+	(intptr_t) "super-buoy ODAS & LANBY, simplified "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5373,8 +5375,8 @@ int SY__BOYSUP02(int orient)
 
 int SY__BOYSUP03(int orient)
 {
-    static int _param[] = { V, 750, 750, 857, 631, 318, 178,
-	(int) "super-buoy, paper-chart "
+     int _param[] = { V, 750, 750, 857, 631, 318, 178,
+	(intptr_t) "super-buoy, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5407,8 +5409,8 @@ int SY__BOYSUP03(int orient)
 
 int SY__BRIDGE01(int orient)
 {
-    static int _param[] = { V, 551, 816, 400, 400, 351, 617,
-	(int) "symbol for opening bridge "
+     int _param[] = { V, 551, 816, 400, 400, 351, 617,
+	(intptr_t) "symbol for opening bridge "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -5428,8 +5430,8 @@ int SY__BRIDGE01(int orient)
 
 int SY__BRTHNO01(int orient)
 {
-    static int _param[] = { V, 750, 750, 700, 700, 400, 400,
-	(int) "berth number symbol "
+     int _param[] = { V, 750, 750, 700, 700, 400, 400,
+	(intptr_t) "berth number symbol "
     };
     XcmsColor J = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -5445,8 +5447,8 @@ int SY__BRTHNO01(int orient)
 
 int SY__BUAARE02(int orient)
 {
-    static int _param[] = { V, 1142, 1436, 518, 518, 886, 1182,
-	(int) "built-up area "
+     int _param[] = { V, 1142, 1436, 518, 518, 886, 1182,
+	(intptr_t) "built-up area "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -5466,8 +5468,8 @@ int SY__BUAARE02(int orient)
 
 int SY__BUIREL01(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 400, 550, 550,
-	(int) "non-conspicuous religious building, Christian "
+     int _param[] = { V, 750, 750, 400, 400, 550, 550,
+	(intptr_t) "non-conspicuous religious building, Christian "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -5551,8 +5553,8 @@ int SY__BUIREL01(int orient)
 
 int SY__BUIREL04(int orient)
 {
-    static int _param[] = { V, 750, 750, 572, 284, 462, 603,
-	(int) "non-conspicuous religious building, non-Christian "
+     int _param[] = { V, 750, 750, 572, 284, 462, 603,
+	(intptr_t) "non-conspicuous religious building, non-Christian "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -5579,8 +5581,8 @@ int SY__BUIREL04(int orient)
 
 int SY__BUIREL05(int orient)
 {
-    static int _param[] = { V, 746, 886, 349, 466, 561, 518,
-	(int) "mosque or minaret "
+     int _param[] = { V, 746, 886, 349, 466, 561, 518,
+	(intptr_t) "mosque or minaret "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -5624,8 +5626,8 @@ int SY__BUIREL05(int orient)
 
 int SY__BUIREL13(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 400, 550, 550,
-	(int) "conspicuous religious building, Christian "
+     int _param[] = { V, 750, 750, 400, 400, 550, 550,
+	(intptr_t) "conspicuous religious building, Christian "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5709,8 +5711,8 @@ int SY__BUIREL13(int orient)
 
 int SY__BUIREL14(int orient)
 {
-    static int _param[] = { V, 750, 750, 572, 284, 462, 603,
-	(int) "conspicuous religious building, non-Christian "
+     int _param[] = { V, 750, 750, 572, 284, 462, 603,
+	(intptr_t) "conspicuous religious building, non-Christian "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5737,8 +5739,8 @@ int SY__BUIREL14(int orient)
 
 int SY__BUIREL15(int orient)
 {
-    static int _param[] = { V, 744, 883, 349, 466, 561, 518,
-	(int) "conspicuous mosque or minaret "
+     int _param[] = { V, 744, 883, 349, 466, 561, 518,
+	(intptr_t) "conspicuous mosque or minaret "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5782,8 +5784,8 @@ int SY__BUIREL15(int orient)
 
 int SY__BUISGL01(int orient)
 {
-    static int _param[] = { V, 750, 750, 250, 250, 618, 618,
-	(int) "single building "
+     int _param[] = { V, 750, 750, 250, 250, 618, 618,
+	(intptr_t) "single building "
     };
     XcmsColor W = LANDF[color_theme], K = CHBRN[color_theme];
     attrsize = sizeof(_param);
@@ -5809,8 +5811,8 @@ int SY__BUISGL01(int orient)
 
 int SY__BUISGL11(int orient)
 {
-    static int _param[] = { V, 750, 750, 250, 250, 618, 618,
-	(int) "conspicuous single building "
+     int _param[] = { V, 750, 750, 250, 250, 618, 618,
+	(intptr_t) "conspicuous single building "
     };
     XcmsColor W = LANDF[color_theme], C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5836,8 +5838,8 @@ int SY__BUISGL11(int orient)
 
 int SY__CAIRNS01(int orient)
 {
-    static int _param[] = { V, 750, 750, 468, 477, 510, 310,
-	(int) "cairn "
+     int _param[] = { V, 750, 750, 468, 477, 510, 310,
+	(intptr_t) "cairn "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -5887,8 +5889,8 @@ int SY__CAIRNS01(int orient)
 
 int SY__CAIRNS11(int orient)
 {
-    static int _param[] = { V, 750, 750, 468, 477, 510, 310,
-	(int) "conspicuous cairn "
+     int _param[] = { V, 750, 750, 468, 477, 510, 310,
+	(intptr_t) "conspicuous cairn "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -5938,8 +5940,8 @@ int SY__CAIRNS11(int orient)
 
 int SY__CBLARE51(int orient)
 {
-    static int _param[] = { V, 3101, 1855, 374, 1112, 2930, 1289,
-	(int) "cable area "
+     int _param[] = { V, 3101, 1855, 374, 1112, 2930, 1289,
+	(intptr_t) "cable area "
     };
     XcmsColor A = CHMGF[color_theme];
     attrsize = sizeof(_param);
@@ -5957,8 +5959,8 @@ int SY__CBLARE51(int orient)
 
 int SY__CGUSTA02(int orient)
 {
-    static int _param[] = { V, 198, 748, 702, 469, 169, 312,
-	(int) "coastguard station "
+     int _param[] = { V, 198, 748, 702, 469, 169, 312,
+	(intptr_t) "coastguard station "
     };
     XcmsColor A = LANDF[color_theme], B = CHWHT[color_theme], C =
 	CHMGF[color_theme];
@@ -6025,8 +6027,8 @@ int SY__CGUSTA02(int orient)
 
 int SY__CHCRDEL1(int orient)
 {
-    static int _param[] = { V, 780, 544, 805, 805, 371, 143,
-	(int) "this object has been manually deleted or modified "
+     int _param[] = { V, 780, 544, 805, 805, 371, 143,
+	(intptr_t) "this object has been manually deleted or modified "
     };
     XcmsColor A = CHCOR[color_theme];
     attrsize = sizeof(_param);
@@ -6042,8 +6044,8 @@ int SY__CHCRDEL1(int orient)
 
 int SY__CHCRID01(int orient)
 {
-    static int _param[] = { V, 5519, 1854, 98, 602, 5470, 1851,
-	(int) "this object has been manually updated "
+     int _param[] = { V, 5519, 1854, 98, 602, 5470, 1851,
+	(intptr_t) "this object has been manually updated "
     };
     XcmsColor A = CHCOR[color_theme];
     attrsize = sizeof(_param);
@@ -6063,8 +6065,8 @@ int SY__CHCRID01(int orient)
 
 int SY__CHIMNY01(int orient)
 {
-    static int _param[] = { V, 743, 750, 478, 672, 568, 134,
-	(int) "chimney "
+     int _param[] = { V, 743, 750, 478, 672, 568, 134,
+	(intptr_t) "chimney "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -6106,8 +6108,8 @@ int SY__CHIMNY01(int orient)
 
 int SY__CHIMNY11(int orient)
 {
-    static int _param[] = { V, 743, 750, 478, 672, 568, 134,
-	(int) "conspicuous chimney "
+     int _param[] = { V, 743, 750, 478, 672, 568, 134,
+	(intptr_t) "conspicuous chimney "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -6149,8 +6151,8 @@ int SY__CHIMNY11(int orient)
 
 int SY__CHINFO06(int orient)
 {
-    static int _param[] = { V, 1142, 1436, 518, 518, 886, 1182,
-	(int) "caution note "
+     int _param[] = { V, 1142, 1436, 518, 518, 886, 1182,
+	(intptr_t) "caution note "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -6174,8 +6176,8 @@ int SY__CHINFO06(int orient)
 
 int SY__CHINFO07(int orient)
 {
-    static int _param[] = { V, 2635, 1859, 495, 495, 2400, 1605,
-	(int) "information note "
+     int _param[] = { V, 2635, 1859, 495, 495, 2400, 1605,
+	(intptr_t) "information note "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -6207,8 +6209,8 @@ int SY__CHINFO07(int orient)
 
 int SY__CHINFO08(int orient)
 {
-    static int _param[] = { V, 2635, 1859, 495, 495, 2400, 1605,
-	(int) "mariner's information note "
+     int _param[] = { V, 2635, 1859, 495, 495, 2400, 1605,
+	(intptr_t) "mariner's information note "
     };
     XcmsColor A = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -6240,8 +6242,8 @@ int SY__CHINFO08(int orient)
 
 int SY__CHINFO09(int orient)
 {
-    static int _param[] = { V, 1142, 1436, 518, 518, 886, 1182,
-	(int) "mariners caution note "
+     int _param[] = { V, 1142, 1436, 518, 518, 886, 1182,
+	(intptr_t) "mariners caution note "
     };
     XcmsColor A = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -6265,8 +6267,8 @@ int SY__CHINFO09(int orient)
 
 int SY__CHINFO10(int orient)
 {
-    static int _param[] = { V, 2635, 1859, 495, 495, 2400, 1605,
-	(int) "manufacturer's information note "
+     int _param[] = { V, 2635, 1859, 495, 495, 2400, 1605,
+	(intptr_t) "manufacturer's information note "
     };
     XcmsColor A = ADINF[color_theme];
     attrsize = sizeof(_param);
@@ -6298,8 +6300,8 @@ int SY__CHINFO10(int orient)
 
 int SY__CHINFO11(int orient)
 {
-    static int _param[] = { V, 1142, 1436, 518, 518, 886, 1182,
-	(int) "manufacturer's caution note "
+     int _param[] = { V, 1142, 1436, 518, 518, 886, 1182,
+	(intptr_t) "manufacturer's caution note "
     };
     XcmsColor A = ADINF[color_theme];
     attrsize = sizeof(_param);
@@ -6323,8 +6325,8 @@ int SY__CHINFO11(int orient)
 
 int SY__CHKSYM01(int orient)
 {
-    static int _param[] = { V, 680, 682, 501, 500, 419, 433,
-	(int)
+     int _param[] = { V, 680, 682, 501, 500, 419, 433,
+	(intptr_t)
 	    "test symbol for checking symbol sizes, should measure 5mm by 5mm "
     };
     XcmsColor A = CHBLK[color_theme], B = OUTLW[color_theme];
@@ -6355,8 +6357,8 @@ int SY__CHKSYM01(int orient)
 
 int SY__CLRLIN01(int orient)
 {
-    static int _param[] = { V, 1499, 1500, 325, 607, 1337, 893,
-	(int) "arrow head for mariner's clearing line "
+     int _param[] = { V, 1499, 1500, 325, 607, 1337, 893,
+	(intptr_t) "arrow head for mariner's clearing line "
     };
     XcmsColor f = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -6375,8 +6377,8 @@ int SY__CLRLIN01(int orient)
 
 int SY__CRANES01(int orient)
 {
-    static int _param[] = { V, 750, 750, 600, 500, 500, 300,
-	(int) "cranes "
+     int _param[] = { V, 750, 750, 600, 500, 500, 300,
+	(intptr_t) "cranes "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -6406,8 +6408,8 @@ int SY__CRANES01(int orient)
 
 int SY__CTNARE51(int orient)
 {
-    static int _param[] = { V, 2061, 1246, 994, 994, 276, 1846,
-	(int) "caution area, a specific caution note applies "
+     int _param[] = { V, 2061, 1246, 994, 994, 276, 1846,
+	(intptr_t) "caution area, a specific caution note applies "
     };
     XcmsColor A = TRFCF[color_theme];
     attrsize = sizeof(_param);
@@ -6431,8 +6433,8 @@ int SY__CTNARE51(int orient)
 
 int SY__CTYARE51(int orient)
 {
-    static int _param[] = { V, 2061, 1246, 994, 994, 276, 1846,
-	(int) "cautionary area (e.g. ferry area) navigate with caution "
+     int _param[] = { V, 2061, 1246, 994, 994, 276, 1846,
+	(intptr_t) "cautionary area (e.g. ferry area) navigate with caution "
     };
     XcmsColor A = TRFCF[color_theme];
     attrsize = sizeof(_param);
@@ -6456,8 +6458,8 @@ int SY__CTYARE51(int orient)
 
 int SY__CTYARE71(int orient)
 {
-    static int _param[] = { V, 2061, 1246, 1235, 994, 35, 1846,
-	(int) "cautionary area with further information "
+     int _param[] = { V, 2061, 1246, 1235, 994, 35, 1846,
+	(intptr_t) "cautionary area with further information "
     };
     XcmsColor A = TRFCF[color_theme], D = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -6494,8 +6496,8 @@ int SY__CTYARE71(int orient)
 
 int SY__CURDEF01(int orient)
 {
-    static int _param[] = { V, 785, 810, 1009, 908, 297, 362,
-	(int) "current or tidal stream whose direction is not known "
+     int _param[] = { V, 785, 810, 1009, 908, 297, 362,
+	(intptr_t) "current or tidal stream whose direction is not known "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -6588,8 +6590,8 @@ int SY__CURDEF01(int orient)
 
 int SY__CURENT01(int orient)
 {
-    static int _param[] = { V, 785, 810, 202, 908, 684, 362,
-	(int) "non-tidal current "
+     int _param[] = { V, 785, 810, 202, 908, 684, 362,
+	(intptr_t) "non-tidal current "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -6620,8 +6622,8 @@ int SY__CURENT01(int orient)
 
 int SY__CURSRA01(int orient)
 {
-    static int _param[] = { V, 2384, 2247, 1000, 1000, 1875, 1755,
-	(int) "ordinary cursor "
+     int _param[] = { V, 2384, 2247, 1000, 1000, 1875, 1755,
+	(intptr_t) "ordinary cursor "
     };
     XcmsColor B = CURSR[color_theme];
     attrsize = sizeof(_param);
@@ -6639,8 +6641,8 @@ int SY__CURSRA01(int orient)
 
 int SY__CURSRB01(int orient)
 {
-    static int _param[] = { V, 2172, 2254, 1001, 1001, 1673, 1752,
-	(int) "cursor with open centre "
+     int _param[] = { V, 2172, 2254, 1001, 1001, 1673, 1752,
+	(intptr_t) "cursor with open centre "
     };
     XcmsColor A = CURSR[color_theme];
     attrsize = sizeof(_param);
@@ -6668,8 +6670,8 @@ int SY__CURSRB01(int orient)
 
 int SY__DANGER01(int orient)
 {
-    static int _param[] = { V, 620, 814, 800, 632, 225, 496,
-	(int) "underwater hazard with a defined depth "
+     int _param[] = { V, 620, 814, 800, 632, 225, 496,
+	(intptr_t) "underwater hazard with a defined depth "
     };
     XcmsColor A = DEPVS[color_theme], B = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -6788,8 +6790,8 @@ int SY__DANGER01(int orient)
 
 int SY__DANGER02(int orient)
 {
-    static int _param[] = { V, 630, 828, 800, 628, 225, 500,
-	(int) "underwater hazard with depth greater than 20 metres "
+     int _param[] = { V, 630, 828, 800, 628, 225, 500,
+	(intptr_t) "underwater hazard with depth greater than 20 metres "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -6881,8 +6883,8 @@ int SY__DANGER02(int orient)
 
 int SY__DANGER03(int orient)
 {
-    static int _param[] = { V, 620, 814, 800, 632, 225, 496,
-	(int) "underwater hazard which covers and uncovers "
+     int _param[] = { V, 620, 814, 800, 632, 225, 496,
+	(intptr_t) "underwater hazard which covers and uncovers "
     };
     XcmsColor A = DEPIT[color_theme], B = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -7001,8 +7003,8 @@ int SY__DANGER03(int orient)
 
 int SY__DAYSQR01(int orient)
 {
-    static int _param[] = { V, 753, 603, 401, 583, 549, 204,
-	(int) "square or rectangular daymark, simplified "
+     int _param[] = { V, 753, 603, 401, 583, 549, 204,
+	(intptr_t) "square or rectangular daymark, simplified "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -7037,8 +7039,8 @@ int SY__DAYSQR01(int orient)
 
 int SY__DAYSQR21(int orient)
 {
-    static int _param[] = { V, 747, 824, 401, 683, 549, 204,
-	(int) "square or rectangular daymark, paper chart "
+     int _param[] = { V, 747, 824, 401, 683, 549, 204,
+	(intptr_t) "square or rectangular daymark, paper chart "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -7073,8 +7075,8 @@ int SY__DAYSQR21(int orient)
 
 int SY__DAYTRI01(int orient)
 {
-    static int _param[] = { V, 766, 504, 500, 601, 517, 103,
-	(int) "triangular daymark, point up, simplified "
+     int _param[] = { V, 766, 504, 500, 601, 517, 103,
+	(intptr_t) "triangular daymark, point up, simplified "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -7108,8 +7110,8 @@ int SY__DAYTRI01(int orient)
 
 int SY__DAYTRI05(int orient)
 {
-    static int _param[] = { V, 750, 619, 503, 607, 500, 224,
-	(int) "triangular daymark, point down, simplified "
+     int _param[] = { V, 750, 619, 503, 607, 500, 224,
+	(intptr_t) "triangular daymark, point down, simplified "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -7143,8 +7145,8 @@ int SY__DAYTRI05(int orient)
 
 int SY__DAYTRI21(int orient)
 {
-    static int _param[] = { V, 746, 751, 500, 727, 498, 88,
-	(int) "triangular daymark, point up, paper chart "
+     int _param[] = { V, 746, 751, 500, 727, 498, 88,
+	(intptr_t) "triangular daymark, point up, paper chart "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -7178,8 +7180,8 @@ int SY__DAYTRI21(int orient)
 
 int SY__DAYTRI25(int orient)
 {
-    static int _param[] = { V, 751, 810, 503, 649, 500, 224,
-	(int) "triangular daymark, point down, paper chart "
+     int _param[] = { V, 751, 810, 503, 649, 500, 224,
+	(intptr_t) "triangular daymark, point down, paper chart "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -7213,8 +7215,8 @@ int SY__DAYTRI25(int orient)
 
 int SY__DIRBOY01(int orient)
 {
-    static int _param[] = { V, 2324, 778, 1312, 827, 128, 355,
-	(int) "direction of buoyage "
+     int _param[] = { V, 2324, 778, 1312, 827, 128, 355,
+	(intptr_t) "direction of buoyage "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -7244,8 +7246,8 @@ int SY__DIRBOY01(int orient)
 
 int SY__DIRBOYA1(int orient)
 {
-    static int _param[] = { V, 2324, 778, 1312, 827, 128, 355,
-	(int)
+     int _param[] = { V, 2324, 778, 1312, 827, 128, 355,
+	(intptr_t)
 	    "direction and color of buoyage for approaching harbour in IALA region A (red to port) "
     };
     XcmsColor A = CHMGD[color_theme], B = CHRED[color_theme], C =
@@ -7277,8 +7279,8 @@ int SY__DIRBOYA1(int orient)
 
 int SY__DIRBOYB1(int orient)
 {
-    static int _param[] = { V, 2324, 778, 1312, 827, 128, 355,
-	(int)
+     int _param[] = { V, 2324, 778, 1312, 827, 128, 355,
+	(intptr_t)
 	    "direction and color of buoyage for approaching harbour in IALA region B (green to port) "
     };
     XcmsColor A = CHMGD[color_theme], B = CHGRN[color_theme], C =
@@ -7310,8 +7312,8 @@ int SY__DIRBOYB1(int orient)
 
 int SY__DISMAR03(int orient)
 {
-    static int _param[] = { V, 825, 756, 865, 400, 335, 494,
-	(int) "distance mark "
+     int _param[] = { V, 825, 756, 865, 400, 335, 494,
+	(intptr_t) "distance mark "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -7361,8 +7363,8 @@ int SY__DISMAR03(int orient)
 
 int SY__DISMAR04(int orient)
 {
-    static int _param[] = { V, 825, 756, 550, 400, 650, 494,
-	(int) "distance point with no mark "
+     int _param[] = { V, 825, 756, 550, 400, 650, 494,
+	(intptr_t) "distance point with no mark "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -7408,8 +7410,8 @@ int SY__DISMAR04(int orient)
 
 int SY__DNGHILIT(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 587, 587, 1206, 1206,
-	(int) "transparent danger highlight for mariner's use "
+     int _param[] = { V, 1500, 1500, 587, 587, 1206, 1206,
+	(intptr_t) "transparent danger highlight for mariner's use "
     };
     XcmsColor S = DNGHL[color_theme];
     attrsize = sizeof(_param);
@@ -7434,8 +7436,8 @@ int SY__DNGHILIT(int orient)
 
 int SY__DOMES001(int orient)
 {
-    static int _param[] = { V, 747, 530, 503, 421, 498, 150,
-	(int) "dome "
+     int _param[] = { V, 747, 530, 503, 421, 498, 150,
+	(intptr_t) "dome "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -7488,8 +7490,8 @@ int SY__DOMES001(int orient)
 
 int SY__DOMES011(int orient)
 {
-    static int _param[] = { V, 746, 521, 503, 421, 498, 150,
-	(int) "conspicuous dome "
+     int _param[] = { V, 746, 521, 503, 421, 498, 150,
+	(intptr_t) "conspicuous dome "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -7542,8 +7544,8 @@ int SY__DOMES011(int orient)
 
 int SY__DSHAER01(int orient)
 {
-    static int _param[] = { V, 750, 750, 350, 531, 584, 259,
-	(int) "dish aerial "
+     int _param[] = { V, 750, 750, 350, 531, 584, 259,
+	(intptr_t) "dish aerial "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -7582,8 +7584,8 @@ int SY__DSHAER01(int orient)
 
 int SY__DSHAER11(int orient)
 {
-    static int _param[] = { V, 750, 750, 350, 531, 584, 259,
-	(int) "conspicuous dish aerial "
+     int _param[] = { V, 750, 750, 350, 531, 584, 259,
+	(intptr_t) "conspicuous dish aerial "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -7622,8 +7624,8 @@ int SY__DSHAER11(int orient)
 
 int SY__DWRTPT51(int orient)
 {
-    static int _param[] = { V, 2313, 2615, 1570, 934, 1587, 881,
-	(int) "part of deep water route "
+     int _param[] = { V, 2313, 2615, 1570, 934, 1587, 881,
+	(intptr_t) "part of deep water route "
     };
     XcmsColor A = TRFCF[color_theme];
     attrsize = sizeof(_param);
@@ -7653,8 +7655,8 @@ int SY__DWRTPT51(int orient)
 
 int SY__DWRUTE51(int orient)
 {
-    static int _param[] = { V, 2250, 2250, 619, 1499, 1944, 1500,
-	(int)
+     int _param[] = { V, 2250, 2250, 619, 1499, 1944, 1500,
+	(intptr_t)
 	    "reciprocal traffic directions in a two-way part of a deep-water route "
     };
     XcmsColor A = TRFCD[color_theme];
@@ -7696,8 +7698,8 @@ int SY__DWRUTE51(int orient)
 
 int SY__EBBSTR01(int orient)
 {
-    static int _param[] = { V, 785, 883, 202, 884, 684, 364,
-	(int) "ebb stream, rate at spring tides "
+     int _param[] = { V, 785, 883, 202, 884, 684, 364,
+	(intptr_t) "ebb stream, rate at spring tides "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -7718,8 +7720,8 @@ int SY__EBBSTR01(int orient)
 
 int SY__EBLVRM11(int orient)
 {
-    static int _param[] = { V, 750, 750, 200, 200, 650, 650,
-	(int) "point of origin for an offset EBL or VRM "
+     int _param[] = { V, 750, 750, 200, 200, 650, 650,
+	(intptr_t) "point of origin for an offset EBL or VRM "
     };
     XcmsColor C = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -7738,8 +7740,8 @@ int SY__EBLVRM11(int orient)
 
 int SY__ENTRES51(int orient)
 {
-    static int _param[] = { V, 2265, 2721, 994, 994, 276, 1846,
-	(int) "area where entry is prohibited or restricted or to be avoided"
+     int _param[] = { V, 2265, 2721, 994, 994, 276, 1846,
+	(intptr_t) "area where entry is prohibited or restricted or to be avoided"
     };
     XcmsColor A = TRFCF[color_theme];
     attrsize = sizeof(_param);
@@ -7759,8 +7761,8 @@ int SY__ENTRES51(int orient)
 
 int SY__ENTRES61(int orient)
 {
-    static int _param[] = { V, 2265, 2721, 1171, 1019, 276, 1846,
-	(int) "area where entry is prohibited or restricted or to be avoided , with other cautions"
+     int _param[] = { V, 2265, 2721, 1171, 1019, 276, 1846,
+	(intptr_t) "area where entry is prohibited or restricted or to be avoided , with other cautions"
     };
     XcmsColor A = TRFCF[color_theme], C = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -7788,8 +7790,8 @@ int SY__ENTRES61(int orient)
 
 int SY__ENTRES71(int orient)
 {
-    static int _param[] = { V, 2265, 2721, 1235, 994, 35, 1846,
-	(int) "area where entry is prohibited or restricted or to be avoided , with other information "
+     int _param[] = { V, 2265, 2721, 1235, 994, 35, 1846,
+	(intptr_t) "area where entry is prohibited or restricted or to be avoided , with other information "
     };
     XcmsColor A = TRFCF[color_theme], C = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -7822,8 +7824,8 @@ int SY__ENTRES71(int orient)
 
 int SY__ERBLTIK1(int orient)
 {
-    static int _param[] = { V, 2674, 1320, 1226, 127, 2072, 1317,
-	(int) "range mark for an ERBL "
+     int _param[] = { V, 2674, 1320, 1226, 127, 2072, 1317,
+	(intptr_t) "range mark for an ERBL "
     };
     XcmsColor A = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -7855,8 +7857,8 @@ int SY__ERBLTIK1(int orient)
 
 int SY__EVENTS02(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 300, 550, 600,
-	(int) "mariner's event mark "
+     int _param[] = { V, 750, 750, 400, 300, 550, 600,
+	(intptr_t) "mariner's event mark "
     };
     XcmsColor f = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -7877,8 +7879,8 @@ int SY__EVENTS02(int orient)
 
 int SY__FAIRWY51(int orient)
 {
-    static int _param[] = { V, 2250, 2250, 600, 1350, 1950, 1500,
-	(int) "fairway with one-way traffic in direction indicated "
+     int _param[] = { V, 2250, 2250, 600, 1350, 1950, 1500,
+	(intptr_t) "fairway with one-way traffic in direction indicated "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -7900,8 +7902,8 @@ int SY__FAIRWY51(int orient)
 
 int SY__FAIRWY52(int orient)
 {
-    static int _param[] = { V, 2250, 2250, 601, 1351, 1948, 1499,
-	(int) "fairway with two-way traffic "
+     int _param[] = { V, 2250, 2250, 601, 1351, 1948, 1499,
+	(intptr_t) "fairway with two-way traffic "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -7929,8 +7931,8 @@ int SY__FAIRWY52(int orient)
 
 int SY__FLASTK01(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 300, 607, 1350, 943,
-	(int) "flare stack "
+     int _param[] = { V, 1500, 1500, 300, 607, 1350, 943,
+	(intptr_t) "flare stack "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -7974,8 +7976,8 @@ int SY__FLASTK01(int orient)
 
 int SY__FLASTK11(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 300, 607, 1350, 943,
-	(int) "conspicuous flare stack "
+     int _param[] = { V, 1500, 1500, 300, 607, 1350, 943,
+	(intptr_t) "conspicuous flare stack "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -8019,8 +8021,8 @@ int SY__FLASTK11(int orient)
 
 int SY__FLDSTR01(int orient)
 {
-    static int _param[] = { V, 785, 810, 202, 915, 684, 362,
-	(int) "flood stream, rate at spring tides "
+     int _param[] = { V, 785, 810, 202, 915, 684, 362,
+	(intptr_t) "flood stream, rate at spring tides "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -8053,8 +8055,8 @@ int SY__FLDSTR01(int orient)
 
 int SY__FLGSTF01(int orient)
 {
-    static int _param[] = { V, 750, 750, 300, 500, 600, 300,
-	(int) "flagstaff, flagpole "
+     int _param[] = { V, 750, 750, 300, 500, 600, 300,
+	(intptr_t) "flagstaff, flagpole "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -8079,8 +8081,8 @@ int SY__FLGSTF01(int orient)
 
 int SY__FOGSIG01(int orient)
 {
-    static int _param[] = { V, 750, 750, 363, 400, 265, 771,
-	(int) "fog signal "
+     int _param[] = { V, 750, 750, 363, 400, 265, 771,
+	(intptr_t) "fog signal "
     };
     XcmsColor J = CHMGF[color_theme];
     attrsize = sizeof(_param);
@@ -8111,8 +8113,8 @@ int SY__FOGSIG01(int orient)
 
 int SY__FORSTC01(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 400, 550, 550,
-	(int) "fortified structure "
+     int _param[] = { V, 750, 750, 400, 400, 550, 550,
+	(intptr_t) "fortified structure "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -8131,8 +8133,8 @@ int SY__FORSTC01(int orient)
 
 int SY__FORSTC11(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 400, 550, 550,
-	(int) "conspicuous fortified structure"
+     int _param[] = { V, 750, 750, 400, 400, 550, 550,
+	(intptr_t) "conspicuous fortified structure"
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -8151,8 +8153,8 @@ int SY__FORSTC11(int orient)
 
 int SY__FOULGND1(int orient)
 {
-    static int _param[] = { V, 666, 767, 390, 300, 465, 613,
-	(int)
+     int _param[] = { V, 666, 767, 390, 300, 465, 613,
+	(intptr_t)
 	    "foul area of seabed safe for navigation but not for anchoring "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -8181,8 +8183,8 @@ int SY__FOULGND1(int orient)
 
 int SY__FRYARE51(int orient)
 {
-    static int _param[] = { V, 1631, 863, 2560, 298, 513, 728,
-	(int) "ferry area "
+     int _param[] = { V, 1631, 863, 2560, 298, 513, 728,
+	(intptr_t) "ferry area "
     };
     XcmsColor A = CHMGF[color_theme];
     attrsize = sizeof(_param);
@@ -8215,8 +8217,8 @@ int SY__FRYARE51(int orient)
 
 int SY__FRYARE52(int orient)
 {
-    static int _param[] = { V, 1631, 863, 2560, 298, 513, 728,
-	(int) "cable ferry area "
+     int _param[] = { V, 1631, 863, 2560, 298, 513, 728,
+	(intptr_t) "cable ferry area "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -8249,8 +8251,8 @@ int SY__FRYARE52(int orient)
 
 int SY__FSHFAC02(int orient)
 {
-    static int _param[] = { V, 772, 631, 511, 438, 492, 416,
-	(int) "fish trap, fish weir, tunny net "
+     int _param[] = { V, 772, 631, 511, 438, 492, 416,
+	(intptr_t) "fish trap, fish weir, tunny net "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -8273,8 +8275,8 @@ int SY__FSHFAC02(int orient)
 
 int SY__FSHFAC03(int orient)
 {
-    static int _param[] = { V, 3437, 2254, 604, 151, 3135, 2173,
-	(int) "fish stakes "
+     int _param[] = { V, 3437, 2254, 604, 151, 3135, 2173,
+	(intptr_t) "fish stakes "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -8304,8 +8306,8 @@ int SY__FSHFAC03(int orient)
 
 int SY__FSHGRD01(int orient)
 {
-    static int _param[] = { V, 1202, 1547, 1104, 449, 527, 1303,
-	(int) "fishing ground "
+     int _param[] = { V, 1202, 1547, 1104, 449, 527, 1303,
+	(intptr_t) "fishing ground "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -8358,8 +8360,8 @@ int SY__FSHGRD01(int orient)
 
 int SY__FSHHAV01(int orient)
 {
-    static int _param[] = { V, 875, 750, 984, 616, 250, 440,
-	(int) "fish haven "
+     int _param[] = { V, 875, 750, 984, 616, 250, 440,
+	(intptr_t) "fish haven "
     };
     XcmsColor D = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -8462,8 +8464,8 @@ int SY__FSHHAV01(int orient)
 
 int SY__FSHRES51(int orient)
 {
-    static int _param[] = { V, 821, 1426, 1021, 602, 1869, 411,
-	(int) "area where fishing or trawling is prohibited or restricted "
+     int _param[] = { V, 821, 1426, 1021, 602, 1869, 411,
+	(intptr_t) "area where fishing or trawling is prohibited or restricted "
     };
     XcmsColor A = CHMGF[color_theme];
     attrsize = sizeof(_param);
@@ -8511,8 +8513,8 @@ int SY__FSHRES51(int orient)
 
 int SY__FSHRES61(int orient)
 {
-    static int _param[] = { V, 821, 1426, 1153, 607, 1869, 411,
-	(int)
+     int _param[] = { V, 821, 1426, 1153, 607, 1869, 411,
+	(intptr_t)
 	    "area where fishing or trawling is prohibited or restricted, with other cautions "
     };
     XcmsColor A = CHMGF[color_theme], E = CHMGD[color_theme];
@@ -8569,8 +8571,8 @@ int SY__FSHRES61(int orient)
 
 int SY__FSHRES71(int orient)
 {
-    static int _param[] = { V, 821, 1426, 1287, 602, 1603, 411,
-	(int)
+     int _param[] = { V, 821, 1426, 1287, 602, 1603, 411,
+	(intptr_t)
 	    "area where fishing or trawling is prohibited or restricted, with other information "
     };
     XcmsColor A = CHMGF[color_theme], E = CHMGD[color_theme];
@@ -8632,8 +8634,8 @@ int SY__FSHRES71(int orient)
 
 int SY__GATCON03(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 700, 700, 1150, 1150,
-	(int) "navigable lock gate "
+     int _param[] = { V, 1500, 1500, 700, 700, 1150, 1150,
+	(intptr_t) "navigable lock gate "
     };
     XcmsColor J = TRFCD[color_theme];
     attrsize = sizeof(_param);
@@ -8660,8 +8662,8 @@ int SY__GATCON03(int orient)
 
 int SY__GATCON04(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 700, 700, 1150, 1150,
-	(int) "non-navigable lock gate "
+     int _param[] = { V, 1500, 1500, 700, 700, 1150, 1150,
+	(intptr_t) "non-navigable lock gate "
     };
     XcmsColor J = TRFCD[color_theme];
     attrsize = sizeof(_param);
@@ -8683,8 +8685,8 @@ int SY__GATCON04(int orient)
 
 int SY__HILTOP01(int orient)
 {
-    static int _param[] = { V, 586, 1070, 1007, 836, 78, 631,
-	(int) "hill or mountain top "
+     int _param[] = { V, 586, 1070, 1007, 836, 78, 631,
+	(intptr_t) "hill or mountain top "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -8789,8 +8791,8 @@ int SY__HILTOP01(int orient)
 
 int SY__HILTOP11(int orient)
 {
-    static int _param[] = { V, 586, 1070, 1007, 836, 78, 631,
-	(int) "conspicuous hill or mountain top "
+     int _param[] = { V, 586, 1070, 1007, 836, 78, 631,
+	(intptr_t) "conspicuous hill or mountain top "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -8895,8 +8897,8 @@ int SY__HILTOP11(int orient)
 
 int SY__HRBFAC09(int orient)
 {
-    static int _param[] = { V, 750, 750, 584, 584, 453, 459,
-	(int) "fishing harbour "
+     int _param[] = { V, 750, 750, 584, 584, 453, 459,
+	(intptr_t) "fishing harbour "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -8984,8 +8986,8 @@ int SY__HRBFAC09(int orient)
 
 int SY__HULKES01(int orient)
 {
-    static int _param[] = { V, 750, 750, 488, 266, 496, 609,
-	(int) "hulk "
+     int _param[] = { V, 750, 750, 488, 266, 496, 609,
+	(intptr_t) "hulk "
     };
     XcmsColor X = CSTLN[color_theme], E = CHBRN[color_theme];
     attrsize = sizeof(_param);
@@ -9028,8 +9030,8 @@ int SY__HULKES01(int orient)
 
 int SY__INFARE51(int orient)
 {
-    static int _param[] = { V, 1394, 2427, 804, 805, 2, 2172,
-	(int) "area with minor restrictions or information notices "
+     int _param[] = { V, 1394, 2427, 804, 805, 2, 2172,
+	(intptr_t) "area with minor restrictions or information notices "
     };
     XcmsColor A = CHMGF[color_theme];
     attrsize = sizeof(_param);
@@ -9064,8 +9066,8 @@ int SY__INFARE51(int orient)
 
 int SY__INFORM01(int orient)
 {
-    static int _param[] = { V, 3991, 3004, 1601, 1598, 3808, 1599,
-	(int)
+     int _param[] = { V, 3991, 3004, 1601, 1598, 3808, 1599,
+	(intptr_t)
 	    "this object has additional information available by cursor query "
     };
     XcmsColor A = CHMGD[color_theme];
@@ -9106,8 +9108,8 @@ int SY__INFORM01(int orient)
 
 int SY__ISODGR01(int orient)
 {
-    static int _param[] = { V, 600, 700, 700, 700, 250, 350,
-	(int) "isolated danger of depth less than the safety contour "
+     int _param[] = { V, 600, 700, 700, 700, 250, 350,
+	(intptr_t) "isolated danger of depth less than the safety contour "
     };
     XcmsColor R = ISDNG[color_theme];
     attrsize = sizeof(_param);
@@ -9139,8 +9141,8 @@ int SY__ISODGR01(int orient)
 
 int SY__ITZARE51(int orient)
 {
-    static int _param[] = { V, 2189, 1310, 1149, 901, 1693, 910,
-	(int) "area of inshore traffic "
+     int _param[] = { V, 2189, 1310, 1149, 901, 1693, 910,
+	(intptr_t) "area of inshore traffic "
     };
     XcmsColor A = CHMGF[color_theme];
     attrsize = sizeof(_param);
@@ -9172,8 +9174,8 @@ int SY__ITZARE51(int orient)
 
 int SY__LIGHTDEF(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 237, 700, 1375, 800,
-	(int) "light flare "
+     int _param[] = { V, 1500, 1500, 237, 700, 1375, 800,
+	(intptr_t) "light flare "
     };
     XcmsColor I = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -9211,8 +9213,8 @@ int SY__LIGHTDEF(int orient)
 
 int SY__LIGHTS01(int orient)
 {
-    static int _param[] = { V, 750, 750, 240, 700, 628, 50,
-	(int) "light flare, red "
+     int _param[] = { V, 750, 750, 240, 700, 628, 50,
+	(intptr_t) "light flare, red "
     };
     XcmsColor O = LITRD[color_theme];
     attrsize = sizeof(_param);
@@ -9249,8 +9251,8 @@ int SY__LIGHTS01(int orient)
 
 int SY__LIGHTS02(int orient)
 {
-    static int _param[] = { V, 2250, 2220, 285, 810, 2100, 1492,
-	(int) "light flare, green "
+     int _param[] = { V, 2250, 2220, 285, 810, 2100, 1492,
+	(intptr_t) "light flare, green "
     };
     XcmsColor P = LITGN[color_theme], q = DEPMD[color_theme];
     attrsize = sizeof(_param);;
@@ -9301,8 +9303,8 @@ int SY__LIGHTS02(int orient)
 
 int SY__LIGHTS03(int orient)
 {
-    static int _param[] = { V, 750, 750, 246, 700, 625, 50,
-	(int) "light flare, white or yellow "
+     int _param[] = { V, 750, 750, 246, 700, 625, 50,
+	(intptr_t) "light flare, white or yellow "
     };
     XcmsColor Q = LITYW[color_theme];
     attrsize = sizeof(_param);
@@ -9339,8 +9341,8 @@ int SY__LIGHTS03(int orient)
 
 int SY__LIGHTS81(int orient)
 {
-    static int _param[] = { V, 642, 745, 374, 251, 450, 624,
-	(int) "strip light "
+     int _param[] = { V, 642, 745, 374, 251, 450, 624,
+	(intptr_t) "strip light "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -9360,8 +9362,8 @@ int SY__LIGHTS81(int orient)
 
 int SY__LIGHTS82(int orient)
 {
-    static int _param[] = { V, 768, 2123, 584, 302, 30, 1742,
-	(int) "floodlight "
+     int _param[] = { V, 768, 2123, 584, 302, 30, 1742,
+	(intptr_t) "floodlight "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -9389,8 +9391,8 @@ int SY__LIGHTS82(int orient)
 
 int SY__LITFLT01(int orient)
 {
-    static int _param[] = { V, 750, 750, 900, 322, 300, 500,
-	(int) "light float, paper-chart "
+     int _param[] = { V, 750, 750, 900, 322, 300, 500,
+	(intptr_t) "light float, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -9424,8 +9426,8 @@ int SY__LITFLT01(int orient)
 
 int SY__LITFLT02(int orient)
 {
-    static int _param[] = { V, 741, 601, 613, 224, 434, 489,
-	(int) "light float, simplified "
+     int _param[] = { V, 741, 601, 613, 224, 434, 489,
+	(intptr_t) "light float, simplified "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -9464,8 +9466,8 @@ int SY__LITFLT02(int orient)
 
 int SY__LITVES01(int orient)
 {
-    static int _param[] = { V, 750, 750, 900, 670, 300, 150,
-	(int) "light vessel, paper-chart "
+     int _param[] = { V, 750, 750, 900, 670, 300, 150,
+	(intptr_t) "light vessel, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -9512,8 +9514,8 @@ int SY__LITVES01(int orient)
 
 int SY__LITVES02(int orient)
 {
-    static int _param[] = { V, 747, 563, 745, 364, 375, 381,
-	(int) "light vessel, simplified "
+     int _param[] = { V, 747, 563, 745, 364, 375, 381,
+	(intptr_t) "light vessel, simplified "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -9540,8 +9542,8 @@ int SY__LITVES02(int orient)
 
 int SY__LNDARE01(int orient)
 {
-    static int _param[] = { V, 2250, 2250, 206, 206, 2147, 2147,
-	(int) "land as a point at small scale "
+     int _param[] = { V, 2250, 2250, 206, 206, 2147, 2147,
+	(intptr_t) "land as a point at small scale "
     };
     XcmsColor V = LANDA[color_theme], X = CSTLN[color_theme];
     attrsize = sizeof(_param);
@@ -9564,8 +9566,8 @@ int SY__LNDARE01(int orient)
 
 int SY__LOCMAG01(int orient)
 {
-    static int _param[] = { V, 1414, 670, 181, 933, 1300, 201,
-	(int) "cursor pick site for a magnetic anomaly at a point "
+     int _param[] = { V, 1414, 670, 181, 933, 1300, 201,
+	(intptr_t) "cursor pick site for a magnetic anomaly at a point "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -9594,8 +9596,8 @@ int SY__LOCMAG01(int orient)
 
 int SY__LOCMAG51(int orient)
 {
-    static int _param[] = { V, 1430, 2146, 374, 1859, 1160, 0,
-	(int)
+     int _param[] = { V, 1430, 2146, 374, 1859, 1160, 0,
+	(intptr_t)
 	    "cursor pick site for a magnetic anomaly along a line or over an area "
     };
     XcmsColor A = CHMGF[color_theme];
@@ -9625,8 +9627,8 @@ int SY__LOCMAG51(int orient)
 
 int SY__LOWACC01(int orient)
 {
-    static int _param[] = { V, 2792, 2621, 1129, 1235, 1562, 1291,
-	(int) "point feature or area of low accuracy "
+     int _param[] = { V, 2792, 2621, 1129, 1235, 1562, 1291,
+	(intptr_t) "point feature or area of low accuracy "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -9670,8 +9672,8 @@ int SY__LOWACC01(int orient)
 
 int SY__MAGVAR01(int orient)
 {
-    static int _param[] = { V, 1408, 648, 181, 915, 1300, 201,
-	(int) "cursor pick site for magnetic variation at a point "
+     int _param[] = { V, 1408, 648, 181, 915, 1300, 201,
+	(intptr_t) "cursor pick site for magnetic variation at a point "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -9705,8 +9707,8 @@ int SY__MAGVAR01(int orient)
 
 int SY__MAGVAR51(int orient)
 {
-    static int _param[] = { V, 1413, 3674, 366, 1854, 1160, 0,
-	(int)
+     int _param[] = { V, 1413, 3674, 366, 1854, 1160, 0,
+	(intptr_t)
 	    "cursor pick site for magnetic variation along a line or over an area "
     };
     XcmsColor A = CHMGF[color_theme];
@@ -9741,8 +9743,8 @@ int SY__MAGVAR51(int orient)
 
 int SY__MARCUL02(int orient)
 {
-    static int _param[] = { V, 769, 770, 705, 403, 416, 568,
-	(int) "fish farm "
+     int _param[] = { V, 769, 770, 705, 403, 416, 568,
+	(intptr_t) "fish farm "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -9811,8 +9813,8 @@ int SY__MARCUL02(int orient)
 
 int SY__MONUMT02(int orient)
 {
-    static int _param[] = { V, 747, 749, 400, 406, 550, 394,
-	(int) "monument "
+     int _param[] = { V, 747, 749, 400, 406, 550, 394,
+	(intptr_t) "monument "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -9854,8 +9856,8 @@ int SY__MONUMT02(int orient)
 
 int SY__MONUMT12(int orient)
 {
-    static int _param[] = { V, 747, 749, 400, 406, 550, 394,
-	(int) "conspicuous monument "
+     int _param[] = { V, 747, 749, 400, 406, 550, 394,
+	(intptr_t) "conspicuous monument "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -9897,8 +9899,8 @@ int SY__MONUMT12(int orient)
 
 int SY__MORFAC03(int orient)
 {
-    static int _param[] = { V, 747, 746, 253, 253, 603, 617,
-	(int) "mooring dolphin "
+     int _param[] = { V, 747, 746, 253, 253, 603, 617,
+	(intptr_t) "mooring dolphin "
     };
     XcmsColor A = LANDA[color_theme], B = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -9928,8 +9930,8 @@ int SY__MORFAC03(int orient)
 
 int SY__MORFAC04(int orient)
 {
-    static int _param[] = { V, 750, 750, 350, 503, 570, 247,
-	(int) "deviation mooring dolphin "
+     int _param[] = { V, 750, 750, 350, 503, 570, 247,
+	(intptr_t) "deviation mooring dolphin "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -9955,8 +9957,8 @@ int SY__MORFAC04(int orient)
 
 int SY__MSTCON04(int orient)
 {
-    static int _param[] = { V, 750, 750, 300, 650, 600, 150,
-	(int) "mast "
+     int _param[] = { V, 750, 750, 300, 650, 600, 150,
+	(intptr_t) "mast "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -9979,8 +9981,8 @@ int SY__MSTCON04(int orient)
 
 int SY__MSTCON14(int orient)
 {
-    static int _param[] = { V, 750, 750, 300, 650, 600, 150,
-	(int) "conspicuous mast "
+     int _param[] = { V, 750, 750, 300, 650, 600, 150,
+	(intptr_t) "conspicuous mast "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -10003,8 +10005,8 @@ int SY__MSTCON14(int orient)
 
 int SY__NORTHAR1(int orient)
 {
-    static int _param[] = { V, 1500, 825, 355, 1500, 1307, 0,
-	(int) "north arrow "
+     int _param[] = { V, 1500, 825, 355, 1500, 1307, 0,
+	(intptr_t) "north arrow "
     };
     XcmsColor A = SCLBR[color_theme];
     attrsize = sizeof(_param);
@@ -10036,8 +10038,8 @@ int SY__NORTHAR1(int orient)
 
 int SY__NOTBRD11(int orient)
 {
-    static int _param[] = { V, 750, 750, 300, 400, 600, 350,
-	(int) "conspicuous notice board "
+     int _param[] = { V, 750, 750, 300, 400, 600, 350,
+	(intptr_t) "conspicuous notice board "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -10060,8 +10062,8 @@ int SY__NOTBRD11(int orient)
 
 int SY__OBSTRN01(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 410, 410, 1295, 1295,
-	(int) "obstruction, depth not stated "
+     int _param[] = { V, 1500, 1500, 410, 410, 1295, 1295,
+	(intptr_t) "obstruction, depth not stated "
     };
     XcmsColor A = DEPVS[color_theme], B = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -10145,8 +10147,8 @@ int SY__OBSTRN01(int orient)
 
 int SY__OBSTRN02(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 400, 400, 1300, 1300,
-	(int) "obstruction in the intertidal area "
+     int _param[] = { V, 1500, 1500, 400, 400, 1300, 1300,
+	(intptr_t) "obstruction in the intertidal area "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -10222,8 +10224,8 @@ int SY__OBSTRN02(int orient)
 
 int SY__OBSTRN03(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 410, 410, 1295, 1295,
-	(int) "obstruction which covers and uncovers "
+     int _param[] = { V, 1500, 1500, 410, 410, 1295, 1295,
+	(intptr_t) "obstruction which covers and uncovers "
     };
     XcmsColor A = DEPIT[color_theme], B = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -10307,8 +10309,8 @@ int SY__OBSTRN03(int orient)
 
 int SY__OBSTRN11(int orient)
 {
-    static int _param[] = { V, 698, 773, 200, 200, 598, 672,
-	(int) "obstruction in the water which is always above water level "
+     int _param[] = { V, 698, 773, 200, 200, 598, 672,
+	(intptr_t) "obstruction in the water which is always above water level "
     };
     XcmsColor B = CSTLN[color_theme], A = LANDA[color_theme];
     attrsize = sizeof(_param);
@@ -10337,8 +10339,8 @@ int SY__OBSTRN11(int orient)
 
 int SY__OFSPLF01(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 400, 550, 550,
-	(int) "offshore platform "
+     int _param[] = { V, 750, 750, 400, 400, 550, 550,
+	(intptr_t) "offshore platform "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -10363,8 +10365,8 @@ int SY__OFSPLF01(int orient)
 
 int SY__OSPONE02(int orient)
 {
-    static int _param[] = { V, 5033, 2167, 394, 0, 4828, 2167,
-	(int) "one minute mark for ownship vector "
+     int _param[] = { V, 5033, 2167, 394, 0, 4828, 2167,
+	(intptr_t) "one minute mark for ownship vector "
     };
     XcmsColor A = SHIPS[color_theme];
     attrsize = sizeof(_param);
@@ -10380,8 +10382,8 @@ int SY__OSPONE02(int orient)
 
 int SY__OSPSIX02(int orient)
 {
-    static int _param[] = { V, 5384, 2145, 397, 0, 5189, 2146,
-	(int) "six minute mark for ownship vector "
+     int _param[] = { V, 5384, 2145, 397, 0, 5189, 2146,
+	(intptr_t) "six minute mark for ownship vector "
     };
     XcmsColor A = SHIPS[color_theme];
     attrsize = sizeof(_param);
@@ -10397,8 +10399,8 @@ int SY__OSPSIX02(int orient)
 
 int SY__OWNSHP01(int orient)
 {
-    static int _param[] = { V, 1490, 1497, 992, 992, 985, 1009,
-	(int) "own ship symbol, constant size "
+     int _param[] = { V, 1490, 1497, 992, 992, 985, 1009,
+	(intptr_t) "own ship symbol, constant size "
     };
     XcmsColor A = SHIPS[color_theme];
     attrsize = sizeof(_param);
@@ -10418,8 +10420,8 @@ int SY__OWNSHP01(int orient)
 
 int SY__OWNSHP05(int orient)
 {
-    static int _param[] = { V, 674, 1154, 401, 1688, 474, 316,
-	(int) "own ship drawn to scale with conning position marked "
+     int _param[] = { V, 674, 1154, 401, 1688, 474, 316,
+	(intptr_t) "own ship drawn to scale with conning position marked "
     };
     XcmsColor A = SHIPS[color_theme];
     attrsize = sizeof(_param);
@@ -10440,8 +10442,8 @@ int SY__OWNSHP05(int orient)
 
 int SY__PASTRK01(int orient)
 {
-    static int _param[] = { V, 198, 904, 402, 0, 0, 905,
-	(int) "time mark on past track "
+     int _param[] = { V, 198, 904, 402, 0, 0, 905,
+	(intptr_t) "time mark on past track "
     };
     XcmsColor A = PSTRK[color_theme];
     attrsize = sizeof(_param);
@@ -10457,8 +10459,8 @@ int SY__PASTRK01(int orient)
 
 int SY__PASTRK02(int orient)
 {
-    static int _param[] = { V, 198, 904, 402, 0, 0, 905,
-	(int) "time mark on secondary past track "
+     int _param[] = { V, 198, 904, 402, 0, 0, 905,
+	(intptr_t) "time mark on secondary past track "
     };
     XcmsColor A = SYTRK[color_theme];
     attrsize = sizeof(_param);
@@ -10474,8 +10476,8 @@ int SY__PASTRK02(int orient)
 
 int SY__PILBOP02(int orient)
 {
-    static int _param[] = { V, 600, 837, 524, 532, 341, 568,
-	(int) "pilot boarding place "
+     int _param[] = { V, 600, 837, 524, 532, 341, 568,
+	(intptr_t) "pilot boarding place "
     };
     XcmsColor J = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -10497,8 +10499,8 @@ int SY__PILBOP02(int orient)
 
 int SY__PILPNT02(int orient)
 {
-    static int _param[] = { V, 750, 750, 200, 200, 650, 650,
-	(int) "pile or bollard "
+     int _param[] = { V, 750, 750, 200, 200, 650, 650,
+	(intptr_t) "pile or bollard "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -10517,8 +10519,8 @@ int SY__PILPNT02(int orient)
 
 int SY__PLNPOS01(int orient)
 {
-    static int _param[] = { V, 2437, 2343, 2382, 919, 2493, 2343,
-	(int)
+     int _param[] = { V, 2437, 2343, 2382, 919, 2493, 2343,
+	(intptr_t)
 	    "surrounding ellipse for arrival date and time at planned position "
     };
     XcmsColor k = PLRTE[color_theme];
@@ -10554,8 +10556,8 @@ int SY__PLNPOS01(int orient)
 
 int SY__PLNPOS02(int orient)
 {
-    static int _param[] = { V, 198, 904, 402, 0, 0, 905,
-	(int) "crossline for planned position "
+     int _param[] = { V, 198, 904, 402, 0, 0, 905,
+	(intptr_t) "crossline for planned position "
     };
     XcmsColor A = PLRTE[color_theme];
     attrsize = sizeof(_param);
@@ -10571,8 +10573,8 @@ int SY__PLNPOS02(int orient)
 
 int SY__PLNSPD03(int orient)
 {
-    static int _param[] = { V, 900, 750, 840, 571, 1074, 864,
-	(int) "box for speed to make good, planned route "
+     int _param[] = { V, 900, 750, 840, 571, 1074, 864,
+	(intptr_t) "box for speed to make good, planned route "
     };
     XcmsColor A = PLRTE[color_theme];
     attrsize = sizeof(_param);
@@ -10591,8 +10593,8 @@ int SY__PLNSPD03(int orient)
 
 int SY__PLNSPD04(int orient)
 {
-    static int _param[] = { V, 900, 750, 840, 571, 1074, 864,
-	(int) "box for speed to make good, alternate route "
+     int _param[] = { V, 900, 750, 840, 571, 1074, 864,
+	(intptr_t) "box for speed to make good, alternate route "
     };
     XcmsColor A = APLRT[color_theme];
     attrsize = sizeof(_param);
@@ -10611,8 +10613,8 @@ int SY__PLNSPD04(int orient)
 
 int SY__POSGEN01(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 400, 550, 550,
-	(int) "position of a point feature "
+     int _param[] = { V, 750, 750, 400, 400, 550, 550,
+	(intptr_t) "position of a point feature "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -10634,8 +10636,8 @@ int SY__POSGEN01(int orient)
 
 int SY__POSGEN03(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 400, 550, 550,
-	(int) "position of a conspicuous point feature "
+     int _param[] = { V, 750, 750, 400, 400, 550, 550,
+	(intptr_t) "position of a conspicuous point feature "
     };
     XcmsColor W = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -10657,8 +10659,8 @@ int SY__POSGEN03(int orient)
 
 int SY__POSGEN04(int orient)
 {
-    static int _param[] = { V, 750, 750, 200, 200, 650, 650,
-	(int) "position of an elevation or control point "
+     int _param[] = { V, 750, 750, 200, 200, 650, 650,
+	(intptr_t) "position of an elevation or control point "
     };
     XcmsColor W = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -10674,8 +10676,8 @@ int SY__POSGEN04(int orient)
 
 int SY__POSITN02(int orient)
 {
-    static int _param[] = { V, 2250, 2250, 590, 590, 1950, 1950,
-	(int) "ownship position fix "
+     int _param[] = { V, 2250, 2250, 590, 590, 1950, 1950,
+	(intptr_t) "ownship position fix "
     };
     XcmsColor f = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -10695,8 +10697,8 @@ int SY__POSITN02(int orient)
 
 int SY__PRCARE12(int orient)
 {
-    static int _param[] = { V, 734, 2077, 366, 503, 557, 1784,
-	(int) "point symbol for traffic precautionary area"
+     int _param[] = { V, 734, 2077, 366, 503, 557, 1784,
+	(intptr_t) "point symbol for traffic precautionary area"
     };
     XcmsColor A = TRFCD[color_theme];
     attrsize = sizeof(_param);
@@ -10722,8 +10724,8 @@ int SY__PRCARE12(int orient)
 
 int SY__PRCARE51(int orient)
 {
-    static int _param[] = { V, 731, 374, 1042, 1301, 219, 1258,
-	(int) "traffic precautionary area "
+     int _param[] = { V, 731, 374, 1042, 1301, 219, 1258,
+	(intptr_t) "traffic precautionary area "
     };
     XcmsColor A = TRFCF[color_theme];
     attrsize = sizeof(_param);
@@ -10749,8 +10751,8 @@ int SY__PRCARE51(int orient)
 
 int SY__PRDINS02(int orient)
 {
-    static int _param[] = { V, 750, 750, 505, 420, 495, 475,
-	(int) "mine, quarry "
+     int _param[] = { V, 750, 750, 505, 420, 495, 475,
+	(intptr_t) "mine, quarry "
     };
     XcmsColor W = LANDF[color_theme], K = CHBRN[color_theme];
     attrsize = sizeof(_param);
@@ -10794,8 +10796,8 @@ int SY__PRDINS02(int orient)
 
 int SY__PRICKE03(int orient)
 {
-    static int _param[] = { V, 750, 750, 293, 435, 625, 315,
-	(int) "withy, port-hand, paper-chart "
+     int _param[] = { V, 750, 750, 293, 435, 625, 315,
+	(intptr_t) "withy, port-hand, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -10828,8 +10830,8 @@ int SY__PRICKE03(int orient)
 
 int SY__PRICKE04(int orient)
 {
-    static int _param[] = { V, 750, 750, 253, 444, 609, 306,
-	(int) "withy, starboard-hand, paper-chart "
+     int _param[] = { V, 750, 750, 253, 444, 609, 306,
+	(intptr_t) "withy, starboard-hand, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -10861,8 +10863,8 @@ int SY__PRICKE04(int orient)
 
 int SY__QUAPOS01(int orient)
 {
-    static int _param[] = { V, 132, 629, 351, 307, 0, 473,
-	(int) "position approximate "
+     int _param[] = { V, 132, 629, 351, 307, 0, 473,
+	(intptr_t) "position approximate "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -10907,8 +10909,8 @@ int SY__QUAPOS01(int orient)
 
 int SY__QUARRY01(int orient)
 {
-    static int _param[] = { V, 750, 750, 672, 672, 398, 342,
-	(int) "quarry "
+     int _param[] = { V, 750, 750, 672, 672, 398, 342,
+	(intptr_t) "quarry "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -10972,8 +10974,8 @@ int SY__QUARRY01(int orient)
 
 int SY__QUESMRK1(int orient)
 {
-    static int _param[] = { V, 1678, 1449, 220, 443, 1568, 1227,
-	(int)
+     int _param[] = { V, 1678, 1449, 220, 443, 1568, 1227,
+	(intptr_t)
 	    "object which is not sufficiently described to be symbolized, or for which no symbol exists in the symbol library "
     };
     XcmsColor A = CHMGD[color_theme];
@@ -11017,8 +11019,8 @@ int SY__QUESMRK1(int orient)
 
 int SY__RACNSP01(int orient)
 {
-    static int _param[] = { V, 1108, 1049, 606, 610, 804, 744,
-	(int) "symbol indicating this object is radar conspicuous "
+     int _param[] = { V, 1108, 1049, 606, 610, 804, 744,
+	(intptr_t) "symbol indicating this object is radar conspicuous "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -11066,8 +11068,8 @@ int SY__RACNSP01(int orient)
 
 int SY__RADRFL03(int orient)
 {
-    static int _param[] = { V, 1108, 1049, 606, 610, 804, 744,
-	(int) "radar reflector "
+     int _param[] = { V, 1108, 1049, 606, 610, 804, 744,
+	(intptr_t) "radar reflector "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -11115,8 +11117,8 @@ int SY__RADRFL03(int orient)
 
 int SY__RASCAN01(int orient)
 {
-    static int _param[] = { V, 748, 750, 398, 544, 546, 256,
-	(int) "radar scanner "
+     int _param[] = { V, 748, 750, 398, 544, 546, 256,
+	(intptr_t) "radar scanner "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -11161,8 +11163,8 @@ int SY__RASCAN01(int orient)
 
 int SY__RASCAN11(int orient)
 {
-    static int _param[] = { V, 753, 748, 398, 544, 546, 256,
-	(int) "conspicuous radar scanner "
+     int _param[] = { V, 753, 748, 398, 544, 546, 256,
+	(intptr_t) "conspicuous radar scanner "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -11207,8 +11209,8 @@ int SY__RASCAN11(int orient)
 
 int SY__RCLDEF01(int orient)
 {
-    static int _param[] = { V, 751, 748, 1209, 1037, 144, 231,
-	(int) "radio calling-in point whose direction is not known "
+     int _param[] = { V, 751, 748, 1209, 1037, 144, 231,
+	(intptr_t) "radio calling-in point whose direction is not known "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -11296,8 +11298,8 @@ int SY__RCLDEF01(int orient)
 
 int SY__RCTLPT52(int orient)
 {
-    static int _param[] = { V, 2257, 2077, 597, 1390, 1960, 1383,
-	(int)
+     int _param[] = { V, 2257, 2077, 597, 1390, 1960, 1383,
+	(intptr_t)
 	    "recommended traffic direction between parts of a traffic separation scheme, or for ships not needing a deep water route "
     };
     XcmsColor A = TRFCD[color_theme];
@@ -11347,8 +11349,8 @@ int SY__RCTLPT52(int orient)
 
 int SY__RDOCAL02(int orient)
 {
-    static int _param[] = { V, 750, 750, 436, 737, 532, 231,
-	(int) "radio calling-in point for traffic in one direction only "
+     int _param[] = { V, 750, 750, 436, 737, 532, 231,
+	(intptr_t) "radio calling-in point for traffic in one direction only "
     };
     XcmsColor A = TRFCD[color_theme];
     attrsize = sizeof(_param);
@@ -11369,8 +11371,8 @@ int SY__RDOCAL02(int orient)
 
 int SY__RDOCAL03(int orient)
 {
-    static int _param[] = { V, 750, 750, 436, 1037, 532, 231,
-	(int) "radio calling-in point for traffic in both directions "
+     int _param[] = { V, 750, 750, 436, 1037, 532, 231,
+	(intptr_t) "radio calling-in point for traffic in both directions "
     };
     XcmsColor A = TRFCD[color_theme];
     attrsize = sizeof(_param);
@@ -11396,8 +11398,8 @@ int SY__RDOCAL03(int orient)
 
 int SY__RDOSTA02(int orient)
 {
-    static int _param[] = { V, 750, 750, 590, 590, 453, 455,
-	(int) "radio station "
+     int _param[] = { V, 750, 750, 590, 590, 453, 455,
+	(intptr_t) "radio station "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -11413,8 +11415,8 @@ int SY__RDOSTA02(int orient)
 
 int SY__RECDEF51(int orient)
 {
-    static int _param[] = { V, 2470, 1413, 1731, 443, 1596, 1179,
-	(int)
+     int _param[] = { V, 2470, 1413, 1731, 443, 1596, 1179,
+	(intptr_t)
 	    "recommended track as an area, direction not defined in data "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -11476,8 +11478,8 @@ int SY__RECDEF51(int orient)
 
 int SY__RECTRC55(int orient)
 {
-    static int _param[] = { V, 2461, 1413, 310, 1728, 2308, 551,
-	(int)
+     int _param[] = { V, 2461, 1413, 310, 1728, 2308, 551,
+	(intptr_t)
 	    "recommended two-way track as an area, not based on fixed marks "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -11512,8 +11514,8 @@ int SY__RECTRC55(int orient)
 
 int SY__RECTRC56(int orient)
 {
-    static int _param[] = { V, 2377, 1410, 310, 1486, 2225, 665,
-	(int) "recommended two-way track as an area, based on fixed marks "
+     int _param[] = { V, 2377, 1410, 310, 1486, 2225, 665,
+	(intptr_t) "recommended two-way track as an area, based on fixed marks "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -11539,8 +11541,8 @@ int SY__RECTRC56(int orient)
 
 int SY__RECTRC57(int orient)
 {
-    static int _param[] = { V, 2137, 1415, 308, 1025, 1981, 920,
-	(int)
+     int _param[] = { V, 2137, 1415, 308, 1025, 1981, 920,
+	(intptr_t)
 	    "recommended one-way track as an area, not based on fixed marks "
     };
     XcmsColor A = CHGRD[color_theme];
@@ -11566,8 +11568,8 @@ int SY__RECTRC57(int orient)
 
 int SY__RECTRC58(int orient)
 {
-    static int _param[] = { V, 2011, 1416, 309, 1206, 1854, 795,
-	(int) "recommended one-way track as an area, based on fixed marks "
+     int _param[] = { V, 2011, 1416, 309, 1206, 1854, 795,
+	(intptr_t) "recommended one-way track as an area, based on fixed marks "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -11588,8 +11590,8 @@ int SY__RECTRC58(int orient)
 
 int SY__REFPNT02(int orient)
 {
-    static int _param[] = { V, 1550, 1650, 1000, 1000, 1050, 1150,
-	(int) "reference point, 'ghost cursor' (user interface) "
+     int _param[] = { V, 1550, 1650, 1000, 1000, 1050, 1150,
+	(intptr_t) "reference point, 'ghost cursor' (user interface) "
     };
     XcmsColor f = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -11615,8 +11617,8 @@ int SY__REFPNT02(int orient)
 
 int SY__RETRFL01(int orient)
 {
-    static int _param[] = { V, 750, 750, 203, 347, 1052, 405,
-	(int) "retro reflector, paper chart "
+     int _param[] = { V, 750, 750, 203, 347, 1052, 405,
+	(intptr_t) "retro reflector, paper chart "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -11644,8 +11646,8 @@ int SY__RETRFL01(int orient)
 
 int SY__RETRFL02(int orient)
 {
-    static int _param[] = { V, 700, 700, 204, 347, 979, 534,
-	(int) "retro reflector, simplified "
+     int _param[] = { V, 700, 700, 204, 347, 979, 534,
+	(intptr_t) "retro reflector, simplified "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -11673,8 +11675,8 @@ int SY__RETRFL02(int orient)
 
 int SY__RFNERY01(int orient)
 {
-    static int _param[] = { V, 1510, 1265, 680, 680, 1169, 912,
-	(int) "refinery "
+     int _param[] = { V, 1510, 1265, 680, 680, 1169, 912,
+	(intptr_t) "refinery "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -11727,8 +11729,8 @@ int SY__RFNERY01(int orient)
 
 int SY__RFNERY11(int orient)
 {
-    static int _param[] = { V, 1501, 1270, 680, 680, 1169, 912,
-	(int) "conspicuous refinery "
+     int _param[] = { V, 1501, 1270, 680, 680, 1169, 912,
+	(intptr_t) "conspicuous refinery "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -11781,8 +11783,8 @@ int SY__RFNERY11(int orient)
 
 int SY__ROLROL01(int orient)
 {
-    static int _param[] = { V, 367, 619, 720, 304, 0, 477,
-	(int) "oRo terminal "
+     int _param[] = { V, 367, 619, 720, 304, 0, 477,
+	(intptr_t) "oRo terminal "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -11858,8 +11860,8 @@ int SY__ROLROL01(int orient)
 
 int SY__RSCSTA02(int orient)
 {
-    static int _param[] = { V, 301, 750, 500, 400, 50, 550,
-	(int) "rescue station "
+     int _param[] = { V, 301, 750, 500, 400, 50, 550,
+	(intptr_t) "rescue station "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -11892,8 +11894,8 @@ int SY__RSCSTA02(int orient)
 
 int SY__RSRDEF51(int orient)
 {
-    static int _param[] = { V, 2265, 2721, 1319, 994, 286, 1837,
-	(int) "area in which undefined restrictions exist "
+     int _param[] = { V, 2265, 2721, 1319, 994, 286, 1837,
+	(intptr_t) "area in which undefined restrictions exist "
     };
     XcmsColor A = TRFCF[color_theme], D = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -11948,8 +11950,8 @@ int SY__RSRDEF51(int orient)
 
 int SY__RTLDEF51(int orient)
 {
-    static int _param[] = { V, 2257, 2077, 1177, 1390, 1639, 1383,
-	(int)
+     int _param[] = { V, 2257, 2077, 1177, 1390, 1639, 1383,
+	(intptr_t)
 	    "recommended route between parts of a traffic separation scheme, or for ships not needing a deep water route, with the direction not specified in the data "
     };
     XcmsColor A = TRFCD[color_theme], I = CHMGD[color_theme];
@@ -12061,8 +12063,8 @@ int SY__RTLDEF51(int orient)
 
 int SY__RTPBCN02(int orient)
 {
-    static int _param[] = { V, 720, 806, 643, 608, 399, 502,
-	(int) "radar transponder beacon "
+     int _param[] = { V, 720, 806, 643, 608, 399, 502,
+	(intptr_t) "radar transponder beacon "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -12104,8 +12106,8 @@ int SY__RTPBCN02(int orient)
 
 int SY__SCALEB10(int orient)
 {
-    static int _param[] = { V, 1150, 3055, 1, 2000, 1150, 1055,
-	(int) "one mile scalebar for display scales larger than 1/80,000 "
+     int _param[] = { V, 1150, 3055, 1, 2000, 1150, 1055,
+	(intptr_t) "one mile scalebar for display scales larger than 1/80,000 "
     };
     XcmsColor A = SCLBR[color_theme], D = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -12157,8 +12159,8 @@ int SY__SCALEB10(int orient)
 
 int SY__SCALEB11(int orient)
 {
-    static int _param[] = { V, 1150, 3055, 1, 2000, 1150, 1055,
-	(int)
+     int _param[] = { V, 1150, 3055, 1, 2000, 1150, 1055,
+	(intptr_t)
 	    "mile latitude scale for display scales smaller than 1/80,000 "
     };
     XcmsColor A = SNDG2[color_theme], D = SNDG1[color_theme];
@@ -12191,8 +12193,8 @@ int SY__SCALEB11(int orient)
 
 int SY__SILBUI01(int orient)
 {
-    static int _param[] = { V, 750, 750, 300, 300, 600, 600,
-	(int) "silo "
+     int _param[] = { V, 750, 750, 300, 300, 600, 600,
+	(intptr_t) "silo "
     };
     XcmsColor W = LANDF[color_theme], K = CHBRN[color_theme];
     attrsize = sizeof(_param);
@@ -12215,8 +12217,8 @@ int SY__SILBUI01(int orient)
 
 int SY__SILBUI11(int orient)
 {
-    static int _param[] = { V, 750, 750, 300, 300, 600, 600,
-	(int) "conspicuous silo "
+     int _param[] = { V, 750, 750, 300, 300, 600, 600,
+	(intptr_t) "conspicuous silo "
     };
     XcmsColor W = LANDF[color_theme], C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -12239,8 +12241,8 @@ int SY__SILBUI11(int orient)
 
 int SY__SISTAT02(int orient)
 {
-    static int _param[] = { V, 484, 758, 640, 425, 460, 734,
-	(int) "signal station "
+     int _param[] = { V, 484, 758, 640, 425, 460, 734,
+	(intptr_t) "signal station "
     };
     XcmsColor A = CHWHT[color_theme], B = LANDF[color_theme], C =
 	CHMGF[color_theme];
@@ -12310,8 +12312,8 @@ int SY__SISTAT02(int orient)
 
 int SY__SMCFAC02(int orient)
 {
-    static int _param[] = { V, 750, 750, 680, 685, 410, 405,
-	(int) "yacht harbour, marina "
+     int _param[] = { V, 750, 750, 680, 685, 410, 405,
+	(intptr_t) "yacht harbour, marina "
     };
     XcmsColor A = CHMGD[color_theme];
     attrsize = sizeof(_param);
@@ -12393,8 +12395,8 @@ int SY__SMCFAC02(int orient)
 
 int SY__SNDWAV02(int orient)
 {
-    static int _param[] = { V, 617, 417, 1179, 179, 37, 316,
-	(int) "sand waves "
+     int _param[] = { V, 617, 417, 1179, 179, 37, 316,
+	(intptr_t) "sand waves "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -12429,8 +12431,8 @@ int SY__SNDWAV02(int orient)
 
 int SY__SOUNDG00(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12453,8 +12455,8 @@ int SY__SOUNDG00(int orient)
 
 int SY__SOUNDG01(int orient)
 {
-    static int _param[] = { V, 750, 750, 75, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 75, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12471,8 +12473,8 @@ int SY__SOUNDG01(int orient)
 
 int SY__SOUNDG02(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12495,8 +12497,8 @@ int SY__SOUNDG02(int orient)
 
 int SY__SOUNDG03(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12525,8 +12527,8 @@ int SY__SOUNDG03(int orient)
 
 int SY__SOUNDG04(int orient)
 {
-    static int _param[] = { V, 750, 750, 155, 298, 799, 600,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 155, 298, 799, 600,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor A = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12544,8 +12546,8 @@ int SY__SOUNDG04(int orient)
 
 int SY__SOUNDG05(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12568,8 +12570,8 @@ int SY__SOUNDG05(int orient)
 
 int SY__SOUNDG06(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12596,8 +12598,8 @@ int SY__SOUNDG06(int orient)
 
 int SY__SOUNDG07(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12615,8 +12617,8 @@ int SY__SOUNDG07(int orient)
 
 int SY__SOUNDG08(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12647,8 +12649,8 @@ int SY__SOUNDG08(int orient)
 
 int SY__SOUNDG09(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12674,8 +12676,8 @@ int SY__SOUNDG09(int orient)
 
 int SY__SOUNDG10(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 575, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 575, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12700,8 +12702,8 @@ int SY__SOUNDG10(int orient)
 
 int SY__SOUNDG11(int orient)
 {
-    static int _param[] = { V, 975, 750, 75, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 75, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12718,8 +12720,8 @@ int SY__SOUNDG11(int orient)
 
 int SY__SOUNDG12(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12742,8 +12744,8 @@ int SY__SOUNDG12(int orient)
 
 int SY__SOUNDG13(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12772,8 +12774,8 @@ int SY__SOUNDG13(int orient)
 
 int SY__SOUNDG14(int orient)
 {
-    static int _param[] = { V, 974, 750, 155, 298, 799, 600,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 974, 750, 155, 298, 799, 600,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor A = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12791,8 +12793,8 @@ int SY__SOUNDG14(int orient)
 
 int SY__SOUNDG15(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12815,8 +12817,8 @@ int SY__SOUNDG15(int orient)
 
 int SY__SOUNDG16(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12843,8 +12845,8 @@ int SY__SOUNDG16(int orient)
 
 int SY__SOUNDG17(int orient)
 {
-    static int _param[] = { V, 975, 725, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 725, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12862,8 +12864,8 @@ int SY__SOUNDG17(int orient)
 
 int SY__SOUNDG18(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12894,8 +12896,8 @@ int SY__SOUNDG18(int orient)
 
 int SY__SOUNDG19(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12921,8 +12923,8 @@ int SY__SOUNDG19(int orient)
 
 int SY__SOUNDG20(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 350, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 350, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12945,8 +12947,8 @@ int SY__SOUNDG20(int orient)
 
 int SY__SOUNDG21(int orient)
 {
-    static int _param[] = { V, 975, 750, 75, 250, 575, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 75, 250, 575, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12963,8 +12965,8 @@ int SY__SOUNDG21(int orient)
 
 int SY__SOUNDG22(int orient)
 {
-    static int _param[] = { V, 1200, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 1200, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -12987,8 +12989,8 @@ int SY__SOUNDG22(int orient)
 
 int SY__SOUNDG23(int orient)
 {
-    static int _param[] = { V, 1200, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 1200, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13017,8 +13019,8 @@ int SY__SOUNDG23(int orient)
 
 int SY__SOUNDG24(int orient)
 {
-    static int _param[] = { V, 1199, 750, 155, 298, 799, 600,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 1199, 750, 155, 298, 799, 600,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor A = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13036,8 +13038,8 @@ int SY__SOUNDG24(int orient)
 
 int SY__SOUNDG25(int orient)
 {
-    static int _param[] = { V, 1200, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 1200, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13060,8 +13062,8 @@ int SY__SOUNDG25(int orient)
 
 int SY__SOUNDG26(int orient)
 {
-    static int _param[] = { V, 1200, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 1200, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13088,8 +13090,8 @@ int SY__SOUNDG26(int orient)
 
 int SY__SOUNDG27(int orient)
 {
-    static int _param[] = { V, 1200, 725, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 1200, 725, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13107,8 +13109,8 @@ int SY__SOUNDG27(int orient)
 
 int SY__SOUNDG28(int orient)
 {
-    static int _param[] = { V, 1200, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 1200, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13139,8 +13141,8 @@ int SY__SOUNDG28(int orient)
 
 int SY__SOUNDG29(int orient)
 {
-    static int _param[] = { V, 1200, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 1200, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13166,8 +13168,8 @@ int SY__SOUNDG29(int orient)
 
 int SY__SOUNDG30(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 350, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 350, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13190,8 +13192,8 @@ int SY__SOUNDG30(int orient)
 
 int SY__SOUNDG31(int orient)
 {
-    static int _param[] = { V, 975, 750, 75, 250, 350, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 75, 250, 350, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13208,8 +13210,8 @@ int SY__SOUNDG31(int orient)
 
 int SY__SOUNDG32(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 350, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 350, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13232,8 +13234,8 @@ int SY__SOUNDG32(int orient)
 
 int SY__SOUNDG33(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 350, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 350, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13262,8 +13264,8 @@ int SY__SOUNDG33(int orient)
 
 int SY__SOUNDG34(int orient)
 {
-    static int _param[] = { V, 1422, 750, 155, 298, 799, 600,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 1422, 750, 155, 298, 799, 600,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor A = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13281,8 +13283,8 @@ int SY__SOUNDG34(int orient)
 
 int SY__SOUNDG35(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 350, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 350, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13305,8 +13307,8 @@ int SY__SOUNDG35(int orient)
 
 int SY__SOUNDG36(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 350, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 350, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13333,8 +13335,8 @@ int SY__SOUNDG36(int orient)
 
 int SY__SOUNDG37(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 350, 650,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 350, 650,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13352,8 +13354,8 @@ int SY__SOUNDG37(int orient)
 
 int SY__SOUNDG38(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 350, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 350, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13384,8 +13386,8 @@ int SY__SOUNDG38(int orient)
 
 int SY__SOUNDG39(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 350, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 350, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13411,8 +13413,8 @@ int SY__SOUNDG39(int orient)
 
 int SY__SOUNDG40(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 1025, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 1025, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13435,8 +13437,8 @@ int SY__SOUNDG40(int orient)
 
 int SY__SOUNDG41(int orient)
 {
-    static int _param[] = { V, 525, 750, 75, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 525, 750, 75, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13453,8 +13455,8 @@ int SY__SOUNDG41(int orient)
 
 int SY__SOUNDG42(int orient)
 {
-    static int _param[] = { V, 525, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 525, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13477,8 +13479,8 @@ int SY__SOUNDG42(int orient)
 
 int SY__SOUNDG43(int orient)
 {
-    static int _param[] = { V, 525, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 525, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13507,8 +13509,8 @@ int SY__SOUNDG43(int orient)
 
 int SY__SOUNDG44(int orient)
 {
-    static int _param[] = { V, 525, 750, 155, 298, 799, 600,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 525, 750, 155, 298, 799, 600,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor A = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13526,8 +13528,8 @@ int SY__SOUNDG44(int orient)
 
 int SY__SOUNDG45(int orient)
 {
-    static int _param[] = { V, 525, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 525, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13550,8 +13552,8 @@ int SY__SOUNDG45(int orient)
 
 int SY__SOUNDG46(int orient)
 {
-    static int _param[] = { V, 525, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 525, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13578,8 +13580,8 @@ int SY__SOUNDG46(int orient)
 
 int SY__SOUNDG47(int orient)
 {
-    static int _param[] = { V, 525, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 525, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13597,8 +13599,8 @@ int SY__SOUNDG47(int orient)
 
 int SY__SOUNDG48(int orient)
 {
-    static int _param[] = { V, 525, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 525, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13629,8 +13631,8 @@ int SY__SOUNDG48(int orient)
 
 int SY__SOUNDG49(int orient)
 {
-    static int _param[] = { V, 525, 750, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 525, 750, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13656,8 +13658,8 @@ int SY__SOUNDG49(int orient)
 
 int SY__SOUNDG50(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 750,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 750,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13680,8 +13682,8 @@ int SY__SOUNDG50(int orient)
 
 int SY__SOUNDG51(int orient)
 {
-    static int _param[] = { V, 750, 625, 75, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 625, 75, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13698,8 +13700,8 @@ int SY__SOUNDG51(int orient)
 
 int SY__SOUNDG52(int orient)
 {
-    static int _param[] = { V, 750, 625, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 625, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13722,8 +13724,8 @@ int SY__SOUNDG52(int orient)
 
 int SY__SOUNDG53(int orient)
 {
-    static int _param[] = { V, 750, 625, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 625, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13752,8 +13754,8 @@ int SY__SOUNDG53(int orient)
 
 int SY__SOUNDG54(int orient)
 {
-    static int _param[] = { V, 749, 625, 155, 298, 799, 600,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 749, 625, 155, 298, 799, 600,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor A = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13771,8 +13773,8 @@ int SY__SOUNDG54(int orient)
 
 int SY__SOUNDG55(int orient)
 {
-    static int _param[] = { V, 750, 625, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 625, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13795,8 +13797,8 @@ int SY__SOUNDG55(int orient)
 
 int SY__SOUNDG56(int orient)
 {
-    static int _param[] = { V, 750, 625, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 625, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13823,8 +13825,8 @@ int SY__SOUNDG56(int orient)
 
 int SY__SOUNDG57(int orient)
 {
-    static int _param[] = { V, 750, 625, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 625, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13842,8 +13844,8 @@ int SY__SOUNDG57(int orient)
 
 int SY__SOUNDG58(int orient)
 {
-    static int _param[] = { V, 750, 625, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 625, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13874,8 +13876,8 @@ int SY__SOUNDG58(int orient)
 
 int SY__SOUNDG59(int orient)
 {
-    static int _param[] = { V, 750, 625, 125, 250, 800, 625,
-	(int) "for deep soundings, greater than safety depth "
+     int _param[] = { V, 750, 625, 125, 250, 800, 625,
+	(intptr_t) "for deep soundings, greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13901,8 +13903,8 @@ int SY__SOUNDG59(int orient)
 
 int SY__SOUNDGB1(int orient)
 {
-    static int _param[] = { V, 750, 750, 631, 131, 340, 928,
-	(int)
+     int _param[] = { V, 750, 750, 631, 131, 340, 928,
+	(intptr_t)
 	    "symbol for swept sounding, used for deep soundings greater than safety depth "
     };
     XcmsColor Y = SNDG1[color_theme];
@@ -13921,8 +13923,8 @@ int SY__SOUNDGB1(int orient)
 
 int SY__SOUNDGC2(int orient)
 {
-    static int _param[] = { V, 7350, 1546, 854, 854, 6923, 1119,
-	(int) "sounding of low accuracy "
+     int _param[] = { V, 7350, 1546, 854, 854, 6923, 1119,
+	(intptr_t) "sounding of low accuracy "
     };
     XcmsColor A = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -13938,8 +13940,8 @@ int SY__SOUNDGC2(int orient)
 
 int SY__SOUNDS00(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -13962,8 +13964,8 @@ int SY__SOUNDS00(int orient)
 
 int SY__SOUNDS01(int orient)
 {
-    static int _param[] = { V, 750, 750, 75, 250, 800, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 75, 250, 800, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -13980,8 +13982,8 @@ int SY__SOUNDS01(int orient)
 
 int SY__SOUNDS02(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14004,8 +14006,8 @@ int SY__SOUNDS02(int orient)
 
 int SY__SOUNDS03(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14034,8 +14036,8 @@ int SY__SOUNDS03(int orient)
 
 int SY__SOUNDS04(int orient)
 {
-    static int _param[] = { V, 750, 750, 155, 298, 799, 600,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 155, 298, 799, 600,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor A = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14053,8 +14055,8 @@ int SY__SOUNDS04(int orient)
 
 int SY__SOUNDS05(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14077,8 +14079,8 @@ int SY__SOUNDS05(int orient)
 
 int SY__SOUNDS06(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14105,8 +14107,8 @@ int SY__SOUNDS06(int orient)
 
 int SY__SOUNDS07(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14124,8 +14126,8 @@ int SY__SOUNDS07(int orient)
 
 int SY__SOUNDS08(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14156,8 +14158,8 @@ int SY__SOUNDS08(int orient)
 
 int SY__SOUNDS09(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14183,8 +14185,8 @@ int SY__SOUNDS09(int orient)
 
 int SY__SOUNDS10(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 575, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 575, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14209,8 +14211,8 @@ int SY__SOUNDS10(int orient)
 
 int SY__SOUNDS11(int orient)
 {
-    static int _param[] = { V, 750, 750, 75, 250, 575, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 75, 250, 575, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14227,8 +14229,8 @@ int SY__SOUNDS11(int orient)
 
 int SY__SOUNDS12(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 575, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 575, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14251,8 +14253,8 @@ int SY__SOUNDS12(int orient)
 
 int SY__SOUNDS13(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 575, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 575, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14281,8 +14283,8 @@ int SY__SOUNDS13(int orient)
 
 int SY__SOUNDS14(int orient)
 {
-    static int _param[] = { V, 974, 750, 155, 298, 799, 600,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 974, 750, 155, 298, 799, 600,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor A = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14300,8 +14302,8 @@ int SY__SOUNDS14(int orient)
 
 int SY__SOUNDS15(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 575, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 575, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14324,8 +14326,8 @@ int SY__SOUNDS15(int orient)
 
 int SY__SOUNDS16(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 575, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 575, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14352,8 +14354,8 @@ int SY__SOUNDS16(int orient)
 
 int SY__SOUNDS17(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 575, 650,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 575, 650,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14371,8 +14373,8 @@ int SY__SOUNDS17(int orient)
 
 int SY__SOUNDS18(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 575, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 575, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14403,8 +14405,8 @@ int SY__SOUNDS18(int orient)
 
 int SY__SOUNDS19(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 575, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 575, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14430,8 +14432,8 @@ int SY__SOUNDS19(int orient)
 
 int SY__SOUNDS20(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 350, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 350, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14454,8 +14456,8 @@ int SY__SOUNDS20(int orient)
 
 int SY__SOUNDS21(int orient)
 {
-    static int _param[] = { V, 750, 750, 75, 250, 350, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 75, 250, 350, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14472,8 +14474,8 @@ int SY__SOUNDS21(int orient)
 
 int SY__SOUNDS22(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 350, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 350, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14496,8 +14498,8 @@ int SY__SOUNDS22(int orient)
 
 int SY__SOUNDS23(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 350, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 350, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14526,8 +14528,8 @@ int SY__SOUNDS23(int orient)
 
 int SY__SOUNDS24(int orient)
 {
-    static int _param[] = { V, 1199, 750, 155, 298, 799, 600,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 1199, 750, 155, 298, 799, 600,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor A = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14545,8 +14547,8 @@ int SY__SOUNDS24(int orient)
 
 int SY__SOUNDS25(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 350, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 350, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14569,8 +14571,8 @@ int SY__SOUNDS25(int orient)
 
 int SY__SOUNDS26(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 350, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 350, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14597,8 +14599,8 @@ int SY__SOUNDS26(int orient)
 
 int SY__SOUNDS27(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 350, 650,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 350, 650,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14616,8 +14618,8 @@ int SY__SOUNDS27(int orient)
 
 int SY__SOUNDS28(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 350, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 350, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14648,8 +14650,8 @@ int SY__SOUNDS28(int orient)
 
 int SY__SOUNDS29(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 350, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 350, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14675,8 +14677,8 @@ int SY__SOUNDS29(int orient)
 
 int SY__SOUNDS30(int orient)
 {
-    static int _param[] = { V, 975, 750, 125, 250, 350, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 975, 750, 125, 250, 350, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14699,8 +14701,8 @@ int SY__SOUNDS30(int orient)
 
 int SY__SOUNDS31(int orient)
 {
-    static int _param[] = { V, 750, 750, 75, 250, 125, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 75, 250, 125, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14717,8 +14719,8 @@ int SY__SOUNDS31(int orient)
 
 int SY__SOUNDS32(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 125, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 125, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14741,8 +14743,8 @@ int SY__SOUNDS32(int orient)
 
 int SY__SOUNDS33(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 125, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 125, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14771,8 +14773,8 @@ int SY__SOUNDS33(int orient)
 
 int SY__SOUNDS34(int orient)
 {
-    static int _param[] = { V, 1422, 750, 155, 298, 799, 600,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 1422, 750, 155, 298, 799, 600,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor A = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14790,8 +14792,8 @@ int SY__SOUNDS34(int orient)
 
 int SY__SOUNDS35(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 125, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 125, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14814,8 +14816,8 @@ int SY__SOUNDS35(int orient)
 
 int SY__SOUNDS36(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 125, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 125, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14842,8 +14844,8 @@ int SY__SOUNDS36(int orient)
 
 int SY__SOUNDS37(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 125, 650,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 125, 650,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14861,8 +14863,8 @@ int SY__SOUNDS37(int orient)
 
 int SY__SOUNDS38(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 125, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 125, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14893,8 +14895,8 @@ int SY__SOUNDS38(int orient)
 
 int SY__SOUNDS39(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 125, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 125, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14920,8 +14922,8 @@ int SY__SOUNDS39(int orient)
 
 int SY__SOUNDS40(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 1025, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 1025, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14944,8 +14946,8 @@ int SY__SOUNDS40(int orient)
 
 int SY__SOUNDS41(int orient)
 {
-    static int _param[] = { V, 750, 750, 75, 250, 1025, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 75, 250, 1025, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14962,8 +14964,8 @@ int SY__SOUNDS41(int orient)
 
 int SY__SOUNDS42(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 1025, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 1025, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -14986,8 +14988,8 @@ int SY__SOUNDS42(int orient)
 
 int SY__SOUNDS43(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 1025, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 1025, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15016,8 +15018,8 @@ int SY__SOUNDS43(int orient)
 
 int SY__SOUNDS44(int orient)
 {
-    static int _param[] = { V, 525, 750, 155, 298, 799, 600,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 525, 750, 155, 298, 799, 600,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor A = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15035,8 +15037,8 @@ int SY__SOUNDS44(int orient)
 
 int SY__SOUNDS45(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 1025, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 1025, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15059,8 +15061,8 @@ int SY__SOUNDS45(int orient)
 
 int SY__SOUNDS46(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 1025, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 1025, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15087,8 +15089,8 @@ int SY__SOUNDS46(int orient)
 
 int SY__SOUNDS47(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 1025, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 1025, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15106,8 +15108,8 @@ int SY__SOUNDS47(int orient)
 
 int SY__SOUNDS48(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 1025, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 1025, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15138,8 +15140,8 @@ int SY__SOUNDS48(int orient)
 
 int SY__SOUNDS49(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 1025, 625,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 1025, 625,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15165,8 +15167,8 @@ int SY__SOUNDS49(int orient)
 
 int SY__SOUNDS50(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 750,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 750,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15189,8 +15191,8 @@ int SY__SOUNDS50(int orient)
 
 int SY__SOUNDS51(int orient)
 {
-    static int _param[] = { V, 750, 750, 75, 250, 800, 750,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 75, 250, 800, 750,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15207,8 +15209,8 @@ int SY__SOUNDS51(int orient)
 
 int SY__SOUNDS52(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 750,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 750,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15231,8 +15233,8 @@ int SY__SOUNDS52(int orient)
 
 int SY__SOUNDS53(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 750,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 750,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15261,8 +15263,8 @@ int SY__SOUNDS53(int orient)
 
 int SY__SOUNDS54(int orient)
 {
-    static int _param[] = { V, 749, 625, 155, 298, 799, 600,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 749, 625, 155, 298, 799, 600,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor A = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15280,8 +15282,8 @@ int SY__SOUNDS54(int orient)
 
 int SY__SOUNDS55(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 750,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 750,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15304,8 +15306,8 @@ int SY__SOUNDS55(int orient)
 
 int SY__SOUNDS56(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 750,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 750,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15332,8 +15334,8 @@ int SY__SOUNDS56(int orient)
 
 int SY__SOUNDS57(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 750,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 750,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15351,8 +15353,8 @@ int SY__SOUNDS57(int orient)
 
 int SY__SOUNDS58(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 750,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 750,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15383,8 +15385,8 @@ int SY__SOUNDS58(int orient)
 
 int SY__SOUNDS59(int orient)
 {
-    static int _param[] = { V, 750, 750, 125, 250, 800, 750,
-	(int) "shallow soundings, less than or equal to the safety depth "
+     int _param[] = { V, 750, 750, 125, 250, 800, 750,
+	(intptr_t) "shallow soundings, less than or equal to the safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
     attrsize = sizeof(_param);
@@ -15410,8 +15412,8 @@ int SY__SOUNDS59(int orient)
 
 int SY__SOUNDSA1(int orient)
 {
-    static int _param[] = { V, 750, 750, 205, 1, 525, 970,
-	(int)
+     int _param[] = { V, 750, 750, 205, 1, 525, 970,
+	(intptr_t)
 	    "symbol for drying height, used for shallow soundings, less than or equal to safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
@@ -15428,8 +15430,8 @@ int SY__SOUNDSA1(int orient)
 
 int SY__SOUNDSB1(int orient)
 {
-    static int _param[] = { V, 750, 750, 631, 131, 340, 928,
-	(int)
+     int _param[] = { V, 750, 750, 631, 131, 340, 928,
+	(intptr_t)
 	    "symbol for swept sounding, used for shallow soundings, less than or equal to safety depth "
     };
     XcmsColor Z = SNDG2[color_theme];
@@ -15448,8 +15450,8 @@ int SY__SOUNDSB1(int orient)
 
 int SY__SOUNDSC2(int orient)
 {
-    static int _param[] = { V, 7350, 1546, 854, 854, 6923, 1119,
-	(int) "sounding of low accuracy "
+     int _param[] = { V, 7350, 1546, 854, 854, 6923, 1119,
+	(intptr_t) "sounding of low accuracy "
     };
     XcmsColor A = SNDG1[color_theme];
     attrsize = sizeof(_param);
@@ -15465,8 +15467,8 @@ int SY__SOUNDSC2(int orient)
 
 int SY__SPRING02(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 300, 350, 1350, 1150,
-	(int) "spring "
+     int _param[] = { V, 1500, 1500, 300, 350, 1350, 1150,
+	(intptr_t) "spring "
     };
     XcmsColor E = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -15518,8 +15520,8 @@ int SY__SPRING02(int orient)
 
 int SY__SWPARE51(int orient)
 {
-    static int _param[] = { V, 651, 1177, 1101, 304, 91, 869,
-	(int) "swept area "
+     int _param[] = { V, 651, 1177, 1101, 304, 91, 869,
+	(intptr_t) "swept area "
     };
     XcmsColor A = CHGRF[color_theme];
     attrsize = sizeof(_param);
@@ -15537,8 +15539,8 @@ int SY__SWPARE51(int orient)
 
 int SY__TIDCUR01(int orient)
 {
-    static int _param[] = { V, 1636, 2287, 408, 1485, 1435, 1667,
-	(int) "predicted tidal stream or current direction "
+     int _param[] = { V, 1636, 2287, 408, 1485, 1435, 1667,
+	(intptr_t) "predicted tidal stream or current direction "
     };
     XcmsColor A = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -15585,8 +15587,8 @@ int SY__TIDCUR01(int orient)
 
 int SY__TIDCUR02(int orient)
 {
-    static int _param[] = { V, 2250, 2250, 403, 1200, 2043, 1650,
-	(int) "actual tidal stream or current direction "
+     int _param[] = { V, 2250, 2250, 403, 1200, 2043, 1650,
+	(intptr_t) "actual tidal stream or current direction "
     };
     XcmsColor f = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -15616,8 +15618,8 @@ int SY__TIDCUR02(int orient)
 
 int SY__TIDCUR03(int orient)
 {
-    static int _param[] = { V, 2250, 2250, 815, 468, 1181, 2803,
-	(int) "box for current strength "
+     int _param[] = { V, 2250, 2250, 815, 468, 1181, 2803,
+	(intptr_t) "box for current strength "
     };
     XcmsColor f = NINFO[color_theme];
     attrsize = sizeof(_param);
@@ -15639,8 +15641,8 @@ int SY__TIDCUR03(int orient)
 
 int SY__TIDEHT01(int orient)
 {
-    static int _param[] = { V, 707, 750, 884, 336, 311, 581,
-	(int) "point for which tide height information is available "
+     int _param[] = { V, 707, 750, 884, 336, 311, 581,
+	(intptr_t) "point for which tide height information is available "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -15693,8 +15695,8 @@ int SY__TIDEHT01(int orient)
 
 int SY__TIDSTR01(int orient)
 {
-    static int _param[] = { V, 741, 747, 566, 560, 461, 466,
-	(int) "point or area for which a tidal stream table is available "
+     int _param[] = { V, 741, 747, 566, 560, 461, 466,
+	(intptr_t) "point or area for which a tidal stream table is available "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -15713,8 +15715,8 @@ int SY__TIDSTR01(int orient)
 
 int SY__TMARDEF1(int orient)
 {
-    static int _param[] = { V, 1432, 1598, 0, 347, 1424, 661,
-	(int) "topmark for beacons, flag or other shape, paper-chart "
+     int _param[] = { V, 1432, 1598, 0, 347, 1424, 661,
+	(intptr_t) "topmark for beacons, flag or other shape, paper-chart "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -15730,8 +15732,8 @@ int SY__TMARDEF1(int orient)
 
 int SY__TMARDEF2(int orient)
 {
-    static int _param[] = { V, 1507, 1603, 136, 364, 1574, 737,
-	(int) "topmark for buoys, flag or other shape, paper-chart "
+     int _param[] = { V, 1507, 1603, 136, 364, 1574, 737,
+	(intptr_t) "topmark for buoys, flag or other shape, paper-chart "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -15747,8 +15749,8 @@ int SY__TMARDEF2(int orient)
 
 int SY__TMBYRD01(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 400, 550, 550,
-	(int) "timber yard "
+     int _param[] = { V, 750, 750, 400, 400, 550, 550,
+	(intptr_t) "timber yard "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -15770,8 +15772,8 @@ int SY__TMBYRD01(int orient)
 
 int SY__TNKCON02(int orient)
 {
-    static int _param[] = { V, 1498, 1498, 284, 284, 1356, 1357,
-	(int) "tank "
+     int _param[] = { V, 1498, 1498, 284, 284, 1356, 1357,
+	(intptr_t) "tank "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -15787,8 +15789,8 @@ int SY__TNKCON02(int orient)
 
 int SY__TNKCON12(int orient)
 {
-    static int _param[] = { V, 1498, 1498, 284, 284, 1356, 1357,
-	(int) "conspicuous tank "
+     int _param[] = { V, 1498, 1498, 284, 284, 1356, 1357,
+	(intptr_t) "conspicuous tank "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -15804,8 +15806,8 @@ int SY__TNKCON12(int orient)
 
 int SY__TNKFRM01(int orient)
 {
-    static int _param[] = { V, 1127, 1685, 766, 766, 737, 1285,
-	(int) "tank farm "
+     int _param[] = { V, 1127, 1685, 766, 766, 737, 1285,
+	(intptr_t) "tank farm "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -15853,8 +15855,8 @@ int SY__TNKFRM01(int orient)
 
 int SY__TNKFRM11(int orient)
 {
-    static int _param[] = { V, 1132, 1690, 766, 766, 740, 1285,
-	(int) "conspicuous tank farm "
+     int _param[] = { V, 1132, 1690, 766, 766, 740, 1285,
+	(intptr_t) "conspicuous tank farm "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -15902,8 +15904,8 @@ int SY__TNKFRM11(int orient)
 
 int SY__TOPMAR02(int orient)
 {
-    static int _param[] = { V, 1510, 1460, 210, 165, 1520, 785,
-	(int) "topmark for buoys, cone point up, paper-chart "
+     int _param[] = { V, 1510, 1460, 210, 165, 1520, 785,
+	(intptr_t) "topmark for buoys, cone point up, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -15922,8 +15924,8 @@ int SY__TOPMAR02(int orient)
 
 int SY__TOPMAR04(int orient)
 {
-    static int _param[] = { V, 1515, 1470, 220, 155, 1560, 785,
-	(int) "topmark for buoys, cone point down, paper-chart "
+     int _param[] = { V, 1515, 1470, 220, 155, 1560, 785,
+	(intptr_t) "topmark for buoys, cone point down, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -15942,8 +15944,8 @@ int SY__TOPMAR04(int orient)
 
 int SY__TOPMAR05(int orient)
 {
-    static int _param[] = { V, 1505, 1470, 275, 405, 1515, 545,
-	(int) "topmark for buoys, 2 cones point upward, paper-chart "
+     int _param[] = { V, 1505, 1470, 275, 405, 1515, 545,
+	(intptr_t) "topmark for buoys, 2 cones point upward, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -15967,8 +15969,8 @@ int SY__TOPMAR05(int orient)
 
 int SY__TOPMAR06(int orient)
 {
-    static int _param[] = { V, 1510, 1470, 280, 370, 1555, 565,
-	(int) "topmark for buoys, 2 cones point downward, paper-chart "
+     int _param[] = { V, 1510, 1470, 280, 370, 1555, 565,
+	(intptr_t) "topmark for buoys, 2 cones point downward, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -15992,8 +15994,8 @@ int SY__TOPMAR06(int orient)
 
 int SY__TOPMAR07(int orient)
 {
-    static int _param[] = { V, 1505, 1470, 240, 395, 1550, 555,
-	(int) "topmark for buoys, 2 cones base to base, paper-chart "
+     int _param[] = { V, 1505, 1470, 240, 395, 1550, 555,
+	(intptr_t) "topmark for buoys, 2 cones base to base, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16017,8 +16019,8 @@ int SY__TOPMAR07(int orient)
 
 int SY__TOPMAR08(int orient)
 {
-    static int _param[] = { V, 1505, 1470, 330, 385, 1510, 565,
-	(int) "topmark for buoys, 2 cones point to point, paper-chart "
+     int _param[] = { V, 1505, 1470, 330, 385, 1510, 565,
+	(intptr_t) "topmark for buoys, 2 cones point to point, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16042,8 +16044,8 @@ int SY__TOPMAR08(int orient)
 
 int SY__TOPMAR10(int orient)
 {
-    static int _param[] = { V, 1515, 1470, 180, 180, 1550, 775,
-	(int) "topmark for buoys, sphere, paper-chart "
+     int _param[] = { V, 1515, 1470, 180, 180, 1550, 775,
+	(intptr_t) "topmark for buoys, sphere, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16062,8 +16064,8 @@ int SY__TOPMAR10(int orient)
 
 int SY__TOPMAR12(int orient)
 {
-    static int _param[] = { V, 1510, 1470, 220, 400, 1550, 555,
-	(int) "topmark for buoys, 2 spheres, paper-chart "
+     int _param[] = { V, 1510, 1470, 220, 400, 1550, 555,
+	(intptr_t) "topmark for buoys, 2 spheres, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16087,8 +16089,8 @@ int SY__TOPMAR12(int orient)
 
 int SY__TOPMAR13(int orient)
 {
-    static int _param[] = { V, 1505, 1475, 215, 220, 1535, 730,
-	(int) "topmark for buoys, cylinder, paper-chart "
+     int _param[] = { V, 1505, 1475, 215, 220, 1535, 730,
+	(intptr_t) "topmark for buoys, cylinder, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16107,8 +16109,8 @@ int SY__TOPMAR13(int orient)
 
 int SY__TOPMAR14(int orient)
 {
-    static int _param[] = { V, 1500, 1480, 240, 140, 1510, 810,
-	(int) "topmark for buoys, board, paper-chart "
+     int _param[] = { V, 1500, 1480, 240, 140, 1510, 810,
+	(intptr_t) "topmark for buoys, board, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16127,8 +16129,8 @@ int SY__TOPMAR14(int orient)
 
 int SY__TOPMAR16(int orient)
 {
-    static int _param[] = { V, 1500, 1470, 205, 195, 1530, 765,
-	(int) "topmark for buoys, cube point up, paper-chart "
+     int _param[] = { V, 1500, 1470, 205, 195, 1530, 765,
+	(intptr_t) "topmark for buoys, cube point up, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16148,8 +16150,8 @@ int SY__TOPMAR16(int orient)
 
 int SY__TOPMAR17(int orient)
 {
-    static int _param[] = { V, 1507, 1603, 421, 263, 1422, 843,
-	(int) "topmark for buoys, flag or other shape, paper-chart "
+     int _param[] = { V, 1507, 1603, 421, 263, 1422, 843,
+	(intptr_t) "topmark for buoys, flag or other shape, paper-chart "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16169,8 +16171,8 @@ int SY__TOPMAR17(int orient)
 
 int SY__TOPMAR18(int orient)
 {
-    static int _param[] = { V, 1507, 1603, 421, 263, 1455, 843,
-	(int) "topmark for buoys, T-Shape, paper-chart "
+     int _param[] = { V, 1507, 1603, 421, 263, 1455, 843,
+	(intptr_t) "topmark for buoys, T-Shape, paper-chart "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16190,8 +16192,8 @@ int SY__TOPMAR18(int orient)
 
 int SY__TOPMAR22(int orient)
 {
-    static int _param[] = { V, 1500, 1475, 220, 175, 1390, 745,
-	(int) "topmark for beacons, cone point up, paper-chart "
+     int _param[] = { V, 1500, 1475, 220, 175, 1390, 745,
+	(intptr_t) "topmark for beacons, cone point up, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16210,8 +16212,8 @@ int SY__TOPMAR22(int orient)
 
 int SY__TOPMAR24(int orient)
 {
-    static int _param[] = { V, 1500, 1470, 220, 170, 1390, 750,
-	(int) "topmark for beacons, cone point down, paper-chart "
+     int _param[] = { V, 1500, 1470, 220, 170, 1390, 750,
+	(intptr_t) "topmark for beacons, cone point down, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16230,8 +16232,8 @@ int SY__TOPMAR24(int orient)
 
 int SY__TOPMAR25(int orient)
 {
-    static int _param[] = { V, 1500, 1470, 220, 395, 1390, 525,
-	(int) "topmark for beacons, 2 cones point upward, paper-chart "
+     int _param[] = { V, 1500, 1470, 220, 395, 1390, 525,
+	(intptr_t) "topmark for beacons, 2 cones point upward, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16255,8 +16257,8 @@ int SY__TOPMAR25(int orient)
 
 int SY__TOPMAR26(int orient)
 {
-    static int _param[] = { V, 1500, 1460, 220, 390, 1390, 530,
-	(int) "topmark for beacons, 2 cones point downward, paper-chart "
+     int _param[] = { V, 1500, 1460, 220, 390, 1390, 530,
+	(intptr_t) "topmark for beacons, 2 cones point downward, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16280,8 +16282,8 @@ int SY__TOPMAR26(int orient)
 
 int SY__TOPMAR27(int orient)
 {
-    static int _param[] = { V, 1500, 1475, 220, 395, 1390, 525,
-	(int) "topmark for beacons, 2 cones base to base, paper-chart "
+     int _param[] = { V, 1500, 1475, 220, 395, 1390, 525,
+	(intptr_t) "topmark for beacons, 2 cones base to base, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16305,8 +16307,8 @@ int SY__TOPMAR27(int orient)
 
 int SY__TOPMAR28(int orient)
 {
-    static int _param[] = { V, 1500, 1470, 220, 390, 1390, 530,
-	(int) "topmark for beacons, 2 cones point to point, paper-chart "
+     int _param[] = { V, 1500, 1470, 220, 390, 1390, 530,
+	(intptr_t) "topmark for beacons, 2 cones point to point, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16330,8 +16332,8 @@ int SY__TOPMAR28(int orient)
 
 int SY__TOPMAR30(int orient)
 {
-    static int _param[] = { V, 1500, 1480, 220, 220, 1390, 730,
-	(int) "topmark for beacons, sphere, paper-chart "
+     int _param[] = { V, 1500, 1480, 220, 220, 1390, 730,
+	(intptr_t) "topmark for beacons, sphere, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16350,8 +16352,8 @@ int SY__TOPMAR30(int orient)
 
 int SY__TOPMAR32(int orient)
 {
-    static int _param[] = { V, 1500, 1470, 220, 495, 1390, 455,
-	(int) "topmark for beacons, 2 spheres, paper-chart "
+     int _param[] = { V, 1500, 1470, 220, 495, 1390, 455,
+	(intptr_t) "topmark for beacons, 2 spheres, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16375,8 +16377,8 @@ int SY__TOPMAR32(int orient)
 
 int SY__TOPMAR33(int orient)
 {
-    static int _param[] = { V, 1500, 1475, 150, 245, 1425, 675,
-	(int) "topmark for beacons, cylinder, paper-chart "
+     int _param[] = { V, 1500, 1475, 150, 245, 1425, 675,
+	(intptr_t) "topmark for beacons, cylinder, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16395,8 +16397,8 @@ int SY__TOPMAR33(int orient)
 
 int SY__TOPMAR34(int orient)
 {
-    static int _param[] = { V, 1500, 1485, 240, 135, 1380, 785,
-	(int) "topmark for beacons, board, paper-chart "
+     int _param[] = { V, 1500, 1485, 240, 135, 1380, 785,
+	(intptr_t) "topmark for beacons, board, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16415,8 +16417,8 @@ int SY__TOPMAR34(int orient)
 
 int SY__TOPMAR36(int orient)
 {
-    static int _param[] = { V, 1500, 1475, 255, 255, 1370, 700,
-	(int) "topmark for beacons, cube point up, paper-chart "
+     int _param[] = { V, 1500, 1475, 255, 255, 1370, 700,
+	(intptr_t) "topmark for beacons, cube point up, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16435,8 +16437,8 @@ int SY__TOPMAR36(int orient)
 
 int SY__TOPMAR65(int orient)
 {
-    static int _param[] = { V, 1515, 1475, 279, 226, 1495, 757,
-	(int) "topmark for buoys, x-shape, paper-chart "
+     int _param[] = { V, 1515, 1475, 279, 226, 1495, 757,
+	(intptr_t) "topmark for buoys, x-shape, paper-chart "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16456,8 +16458,8 @@ int SY__TOPMAR65(int orient)
 
 int SY__TOPMAR85(int orient)
 {
-    static int _param[] = { V, 1500, 1480, 220, 220, 1390, 730,
-	(int) "topmark for beacons, x-shape, paper-chart "
+     int _param[] = { V, 1500, 1480, 220, 220, 1390, 730,
+	(intptr_t) "topmark for beacons, x-shape, paper-chart "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16475,8 +16477,8 @@ int SY__TOPMAR85(int orient)
 
 int SY__TOPMAR86(int orient)
 {
-    static int _param[] = { V, 1436, 1648, 420, 399, 1219, 680,
-	(int) "topmark for beacons, upright cross, paper-chart "
+     int _param[] = { V, 1436, 1648, 420, 399, 1219, 680,
+	(intptr_t) "topmark for beacons, upright cross, paper-chart "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16496,8 +16498,8 @@ int SY__TOPMAR86(int orient)
 
 int SY__TOPMAR87(int orient)
 {
-    static int _param[] = { V, 1496, 1541, 259, 301, 1372, 721,
-	(int) "topmark for beacons, besom point down, paper-chart "
+     int _param[] = { V, 1496, 1541, 259, 301, 1372, 721,
+	(intptr_t) "topmark for beacons, besom point down, paper-chart "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16521,8 +16523,8 @@ int SY__TOPMAR87(int orient)
 
 int SY__TOPMAR88(int orient)
 {
-    static int _param[] = { V, 1503, 1216, 258, 301, 1370, 401,
-	(int) "topmark for beacons, besom point up, paper-chart "
+     int _param[] = { V, 1503, 1216, 258, 301, 1370, 401,
+	(intptr_t) "topmark for beacons, besom point up, paper-chart "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16546,8 +16548,8 @@ int SY__TOPMAR88(int orient)
 
 int SY__TOPMAR89(int orient)
 {
-    static int _param[] = { V, 1438, 1672, 420, 280, 1221, 799,
-	(int) "topmark for beacons, T-shape, paper-chart "
+     int _param[] = { V, 1438, 1672, 420, 280, 1221, 799,
+	(intptr_t) "topmark for beacons, T-shape, paper-chart "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16567,8 +16569,8 @@ int SY__TOPMAR89(int orient)
 
 int SY__TOWERS01(int orient)
 {
-    static int _param[] = { V, 750, 750, 345, 635, 577, 172,
-	(int) "tower "
+     int _param[] = { V, 750, 750, 345, 635, 577, 172,
+	(intptr_t) "tower "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -16594,8 +16596,8 @@ int SY__TOWERS01(int orient)
 
 int SY__TOWERS02(int orient)
 {
-    static int _param[] = { V, 750, 750, 300, 550, 600, 250,
-	(int) "water tower "
+     int _param[] = { V, 750, 750, 300, 550, 600, 250,
+	(intptr_t) "water tower "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -16624,8 +16626,8 @@ int SY__TOWERS02(int orient)
 
 int SY__TOWERS03(int orient)
 {
-    static int _param[] = { V, 750, 750, 346, 635, 575, 171,
-	(int) "conspicuous tower "
+     int _param[] = { V, 750, 750, 346, 635, 575, 171,
+	(intptr_t) "conspicuous tower "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16651,8 +16653,8 @@ int SY__TOWERS03(int orient)
 
 int SY__TOWERS05(int orient)
 {
-    static int _param[] = { V, 700, 1100, 300, 750, 550, 400,
-	(int) "radio, television tower "
+     int _param[] = { V, 700, 1100, 300, 750, 550, 400,
+	(intptr_t) "radio, television tower "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -16696,8 +16698,8 @@ int SY__TOWERS05(int orient)
 
 int SY__TOWERS12(int orient)
 {
-    static int _param[] = { V, 750, 750, 300, 550, 600, 250,
-	(int) "conspicuous water tower "
+     int _param[] = { V, 750, 750, 300, 550, 600, 250,
+	(intptr_t) "conspicuous water tower "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16726,8 +16728,8 @@ int SY__TOWERS12(int orient)
 
 int SY__TOWERS15(int orient)
 {
-    static int _param[] = { V, 700, 1100, 300, 750, 550, 400,
-	(int) "conspicuous radio, television tower "
+     int _param[] = { V, 700, 1100, 300, 750, 550, 400,
+	(intptr_t) "conspicuous radio, television tower "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -16771,8 +16773,8 @@ int SY__TOWERS15(int orient)
 
 int SY__TREPNT04(int orient)
 {
-    static int _param[] = { V, 750, 749, 362, 399, 574, 348,
-	(int) "general symbol for a tree "
+     int _param[] = { V, 750, 749, 362, 399, 574, 348,
+	(intptr_t) "general symbol for a tree "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -16812,8 +16814,8 @@ int SY__TREPNT04(int orient)
 
 int SY__TREPNT05(int orient)
 {
-    static int _param[] = { V, 750, 750, 400, 300, 550, 450,
-	(int) "mangrove "
+     int _param[] = { V, 750, 750, 400, 300, 550, 450,
+	(intptr_t) "mangrove "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -16837,8 +16839,8 @@ int SY__TREPNT05(int orient)
 
 int SY__TSLDEF51(int orient)
 {
-    static int _param[] = { V, 2250, 2250, 1209, 1350, 1647, 1500,
-	(int)
+     int _param[] = { V, 2250, 2250, 1209, 1350, 1647, 1500,
+	(intptr_t)
 	    "one way lane of a traffic separation scheme, with the direction not defined in the data "
     };
     XcmsColor A = TRFCD[color_theme], C = CHMGD[color_theme];
@@ -16937,8 +16939,8 @@ int SY__TSLDEF51(int orient)
 
 int SY__TSSCRS51(int orient)
 {
-    static int _param[] = { V, 2049, 1192, 994, 994, 248, 1794,
-	(int) "traffic crossing area "
+     int _param[] = { V, 2049, 1192, 994, 994, 248, 1794,
+	(intptr_t) "traffic crossing area "
     };
     XcmsColor A = TRFCF[color_theme];
     attrsize = sizeof(_param);
@@ -16962,8 +16964,8 @@ int SY__TSSCRS51(int orient)
 
 int SY__TSSLPT51(int orient)
 {
-    static int _param[] = { V, 2250, 2250, 600, 1350, 1950, 1500,
-	(int)
+     int _param[] = { V, 2250, 2250, 600, 1350, 1950, 1500,
+	(intptr_t)
 	    "traffic direction in a one way lane of a traffic separation scheme "
     };
     XcmsColor T = TRFCD[color_theme];
@@ -16993,8 +16995,8 @@ int SY__TSSLPT51(int orient)
 
 int SY__TSSRON51(int orient)
 {
-    static int _param[] = { V, 448, 741, 895, 915, 1, 284,
-	(int) "traffic roundabout "
+     int _param[] = { V, 448, 741, 895, 915, 1, 284,
+	(intptr_t) "traffic roundabout "
     };
     XcmsColor A = TRFCF[color_theme];
     attrsize = sizeof(_param);
@@ -17034,8 +17036,8 @@ int SY__TSSRON51(int orient)
 
 int SY__TWRDEF51(int orient)
 {
-    static int _param[] = { V, 2257, 2077, 1361, 1403, 1568, 1383,
-	(int)
+     int _param[] = { V, 2257, 2077, 1361, 1403, 1568, 1383,
+	(intptr_t)
 	    "two way route of a traffic separation scheme, with the direction not defined in the data "
     };
     XcmsColor A = TRFCD[color_theme], I = CHMGD[color_theme];
@@ -17148,8 +17150,8 @@ int SY__TWRDEF51(int orient)
 
 int SY__TWRTPT52(int orient)
 {
-    static int _param[] = { V, 2257, 2077, 611, 1403, 1946, 1383,
-	(int)
+     int _param[] = { V, 2257, 2077, 611, 1403, 1946, 1383,
+	(intptr_t)
 	    "reciprocal traffic directions in a two-way route of a traffic separation scheme "
     };
     XcmsColor A = TRFCD[color_theme];
@@ -17200,8 +17202,8 @@ int SY__TWRTPT52(int orient)
 
 int SY__TWRTPT53(int orient)
 {
-    static int _param[] = { V, 2257, 2077, 597, 1390, 1960, 1383,
-	(int)
+     int _param[] = { V, 2257, 2077, 597, 1390, 1960, 1383,
+	(intptr_t)
 	    "single traffic direction in a two-way route part of a traffic separation scheme "
     };
     XcmsColor A = TRFCD[color_theme];
@@ -17251,8 +17253,8 @@ int SY__TWRTPT53(int orient)
 
 int SY__UNITFTH1(int orient)
 {
-    static int _param[] = { V, 1410, 795, 306, 466, 1300, 595,
-	(int) "depth unit at ship's position is fathoms "
+     int _param[] = { V, 1410, 795, 306, 466, 1300, 595,
+	(intptr_t) "depth unit at ship's position is fathoms "
     };
     XcmsColor A = SCLBR[color_theme];
     attrsize = sizeof(_param);
@@ -17273,8 +17275,8 @@ int SY__UNITFTH1(int orient)
 
 int SY__UNITMTR1(int orient)
 {
-    static int _param[] = { V, 1469, 813, 404, 469, 1262, 581,
-	(int) "depth unit at ship's position is metres "
+     int _param[] = { V, 1469, 813, 404, 469, 1262, 581,
+	(intptr_t) "depth unit at ship's position is metres "
     };
     XcmsColor A = SCLBR[color_theme];
     attrsize = sizeof(_param);
@@ -17293,8 +17295,8 @@ int SY__UNITMTR1(int orient)
 
 int SY__UWTROC03(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 402, 402, 1299, 1299,
-	(int) "dangerous underwater rock of uncertain depth "
+     int _param[] = { V, 1500, 1500, 402, 402, 1299, 1299,
+	(intptr_t) "dangerous underwater rock of uncertain depth "
     };
     XcmsColor A = DEPVS[color_theme], B = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -17386,8 +17388,8 @@ int SY__UWTROC03(int orient)
 
 int SY__UWTROC04(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 400, 325, 1297, 1336,
-	(int) "rock which covers and uncovers or is awash at low water "
+     int _param[] = { V, 1500, 1500, 400, 325, 1297, 1336,
+	(intptr_t) "rock which covers and uncovers or is awash at low water "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -17411,8 +17413,8 @@ int SY__UWTROC04(int orient)
 
 int SY__VECGND01(int orient)
 {
-    static int _param[] = { V, 758, 385, 590, 415, 466, 384,
-	(int)
+     int _param[] = { V, 758, 385, 590, 415, 466, 384,
+	(intptr_t)
 	    "arrowhead for ownship vector for course and speed over the ground "
     };
     XcmsColor A = SHIPS[color_theme];
@@ -17435,8 +17437,8 @@ int SY__VECGND01(int orient)
 
 int SY__VECGND21(int orient)
 {
-    static int _param[] = { V, 758, 385, 590, 415, 466, 384,
-	(int)
+     int _param[] = { V, 758, 385, 590, 415, 466, 384,
+	(intptr_t)
 	    "arrowhead for ARPA or AIS vector for course and speed over the ground "
     };
     XcmsColor A = ARPAT[color_theme];
@@ -17459,8 +17461,8 @@ int SY__VECGND21(int orient)
 
 int SY__VECWTR01(int orient)
 {
-    static int _param[] = { V, 758, 385, 590, 354, 466, 384,
-	(int)
+     int _param[] = { V, 758, 385, 590, 354, 466, 384,
+	(intptr_t)
 	    "arrowhead for ownship vector for course and speed through the water "
     };
     XcmsColor A = SHIPS[color_theme];
@@ -17478,8 +17480,8 @@ int SY__VECWTR01(int orient)
 
 int SY__VECWTR21(int orient)
 {
-    static int _param[] = { V, 758, 385, 590, 354, 466, 384,
-	(int)
+     int _param[] = { V, 758, 385, 590, 354, 466, 384,
+	(intptr_t)
 	    "arrowhead for ARPA or AIS vector for course and speed through the water "
     };
     XcmsColor A = ARPAT[color_theme];
@@ -17497,8 +17499,8 @@ int SY__VECWTR21(int orient)
 
 int SY__WATTUR02(int orient)
 {
-    static int _param[] = { V, 1817, 1333, 1518, 311, 967, 1184,
-	(int) "overfalls, eddies and breakers "
+     int _param[] = { V, 1817, 1333, 1518, 311, 967, 1184,
+	(intptr_t) "overfalls, eddies and breakers "
     };
     XcmsColor A = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -17537,8 +17539,8 @@ int SY__WATTUR02(int orient)
 
 int SY__WAYPNT01(int orient)
 {
-    static int _param[] = { V, 750, 750, 600, 600, 450, 450,
-	(int) "waypoint on planned route "
+     int _param[] = { V, 750, 750, 600, 600, 450, 450,
+	(intptr_t) "waypoint on planned route "
     };
     XcmsColor k = PLRTE[color_theme];
     attrsize = sizeof(_param);
@@ -17554,8 +17556,8 @@ int SY__WAYPNT01(int orient)
 
 int SY__WAYPNT03(int orient)
 {
-    static int _param[] = { V, 1500, 1500, 600, 600, 1200, 1200,
-	(int) "waypoint on alternate planned route "
+     int _param[] = { V, 1500, 1500, 600, 600, 1200, 1200,
+	(intptr_t) "waypoint on alternate planned route "
     };
     XcmsColor l = APLRT[color_theme];
     attrsize = sizeof(_param);
@@ -17571,8 +17573,8 @@ int SY__WAYPNT03(int orient)
 
 int SY__WAYPNT11(int orient)
 {
-    static int _param[] = { V, 750, 750, 600, 600, 450, 450,
-	(int) "next waypoint on planned route "
+     int _param[] = { V, 750, 750, 600, 600, 450, 450,
+	(intptr_t) "next waypoint on planned route "
     };
     XcmsColor A = PLRTE[color_theme];
     attrsize = sizeof(_param);
@@ -17592,8 +17594,8 @@ int SY__WAYPNT11(int orient)
 
 int SY__WEDKLP03(int orient)
 {
-    static int _param[] = { V, 750, 725, 1000, 250, 250, 600,
-	(int) "weed, kelp "
+     int _param[] = { V, 750, 725, 1000, 250, 250, 600,
+	(intptr_t) "weed, kelp "
     };
     XcmsColor E = CHGRD[color_theme];
     attrsize = sizeof(_param);
@@ -17621,8 +17623,8 @@ int SY__WEDKLP03(int orient)
 
 int SY__WIMCON01(int orient)
 {
-    static int _param[] = { V, 750, 750, 368, 663, 600, 137,
-	(int) "windmotor "
+     int _param[] = { V, 750, 750, 368, 663, 600, 137,
+	(intptr_t) "windmotor "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -17650,8 +17652,8 @@ int SY__WIMCON01(int orient)
 
 int SY__WIMCON11(int orient)
 {
-    static int _param[] = { V, 750, 750, 368, 663, 600, 137,
-	(int) "conspicuous windmotor "
+     int _param[] = { V, 750, 750, 368, 663, 600, 137,
+	(intptr_t) "conspicuous windmotor "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -17679,8 +17681,8 @@ int SY__WIMCON11(int orient)
 
 int SY__WNDFRM51(int orient)
 {
-    static int _param[] = { V, 749, 468, 778, 778, 360, 78,
-	(int) "wind generator farm "
+     int _param[] = { V, 749, 468, 778, 778, 360, 78,
+	(intptr_t) "wind generator farm "
     };
     XcmsColor A = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -17716,8 +17718,8 @@ int SY__WNDFRM51(int orient)
 
 int SY__WNDFRM61(int orient)
 {
-    static int _param[] = { V, 747, 478, 778, 778, 360, 78,
-	(int) "conspicuous wind generator farm "
+     int _param[] = { V, 747, 478, 778, 778, 360, 78,
+	(intptr_t) "conspicuous wind generator farm "
     };
     XcmsColor A = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -17753,8 +17755,8 @@ int SY__WNDFRM61(int orient)
 
 int SY__WNDMIL02(int orient)
 {
-    static int _param[] = { V, 750, 750, 300, 410, 600, 450,
-	(int) "windmill "
+     int _param[] = { V, 750, 750, 300, 410, 600, 450,
+	(intptr_t) "windmill "
     };
     XcmsColor W = LANDF[color_theme];
     attrsize = sizeof(_param);
@@ -17774,8 +17776,8 @@ int SY__WNDMIL02(int orient)
 
 int SY__WNDMIL12(int orient)
 {
-    static int _param[] = { V, 750, 750, 300, 410, 600, 450,
-	(int) "conspicuous windmill "
+     int _param[] = { V, 750, 750, 300, 410, 600, 450,
+	(intptr_t) "conspicuous windmill "
     };
     XcmsColor C = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -17795,8 +17797,8 @@ int SY__WNDMIL12(int orient)
 
 int SY__WRECKS01(int orient)
 {
-    static int _param[] = { V, 750, 750, 650, 350, 400, 450,
-	(int)
+     int _param[] = { V, 750, 750, 650, 350, 400, 450,
+	(intptr_t)
 	    "wreck showing any portion of hull or superstructure at level of chart datum "
     };
     XcmsColor D = CHGRD[color_theme];
@@ -17828,8 +17830,8 @@ int SY__WRECKS01(int orient)
 
 int SY__WRECKS04(int orient)
 {
-    static int _param[] = { V, 750, 750, 500, 300, 500, 600,
-	(int) "non-dangerous wreck, depth unknown "
+     int _param[] = { V, 750, 750, 500, 300, 500, 600,
+	(intptr_t) "non-dangerous wreck, depth unknown "
     };
     XcmsColor E = CHBLK[color_theme];
     attrsize = sizeof(_param);
@@ -17855,8 +17857,8 @@ int SY__WRECKS04(int orient)
 
 int SY__WRECKS05(int orient)
 {
-    static int _param[] = { V, 750, 750, 590, 410, 453, 540,
-	(int) "dangerous wreck, depth unknown "
+    int _param[] = { V, 750, 750, 590, 410, 453, 540,
+	(intptr_t) "dangerous wreck, depth unknown "
     };
     XcmsColor A = DEPVS[color_theme], C = CHBLK[color_theme];
     attrsize = sizeof(_param);

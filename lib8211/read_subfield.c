@@ -20,7 +20,7 @@ unsigned int tmp_rcid = 0;
 int tmp_rcnm = 0;
 int psize = 0;
 const char *name;
-struct dspm_ dspm;
+extern struct dspm_ dspm;
 int max_id[] = { 0, 0, 0 };
 
 static int attrcnt = 0;

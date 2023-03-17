@@ -4,6 +4,9 @@
 #include "color_names.h"
 #include "symbols.h"
 #include "glob.h"
+
+
+
 enum FTYP { AREA = 3, LINE = 2, POINT = 1 };
 int floating_symbol;
 

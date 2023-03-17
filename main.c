@@ -41,7 +41,7 @@ int box_x1 = 0, box_y1 = 0, box_x2 = 0, box_y2 = 0, gap_x = 0, gap_y = 0;
 int gap_x_old = 0, gap_y_old = 0;
 double zoom_x = 0, zoom_y = 0, zoom_real = 1;
 long long A, B;
-extern int floating_symbol = 1;
+//extern int floating_symbol = 1;
 double display_height_deg;
 double pixel_deg;
 int bot_lat;

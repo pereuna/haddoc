@@ -2,12 +2,12 @@ OBJ = read_file.o read_subfield.o
 all:    lib	
 
 .c.o:
-	gcc -c -g -Wall -O0 -m32 $<
+	gcc -c -g -Wall -O0 $<
 	
 lib:	$(OBJ)
 	ar rsc lib8211.a $(OBJ)
 test:	lib8211.a test.o 
-	gcc -g -Wall -m32 test.c -o test lib8211.a
+	gcc -g -Wall test.c -o test lib8211.a
 dist:
 	mkdir lib8211
 	cp *.c lib8211/

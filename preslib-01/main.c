@@ -11,8 +11,13 @@
 #include "attr.h"
 #include "color_names.h"
 
+
 unsigned long long aA = 0;
 unsigned long long bB = 0;
+Display *display;
+Window win;
+Pixmap chartmap;
+GC gc;
 
 int safety_contour = 30;
 extern int attrib[ATTRCNT];     

@@ -15,6 +15,10 @@
 
 extern unsigned long long aA;
 extern unsigned long long bB;
+extern Display *display;
+extern Window win;
+extern Pixmap chartmap;
+extern GC gc;
 
 enum TNAM { PLAIN_BOUNDARIES, SYMBOLIZED_BOUNDARIES, SIMPLIFIED,
     PAPER_CHART, LINES
@@ -27,14 +31,10 @@ int npoints;
 int pm_mode = 2;
 int obj_type;
 XPoint points[256];
-Display *display;
 Colormap cmap;
-Window win;
 Pixmap pattern_win;
-extern Pixmap omap;
+Pixmap omap;
 Pixmap dmap[10];
-Pixmap chartmap;
-GC gc;
 int s_num;
 int map_size_x = 640;
 int map_size_y = 480;

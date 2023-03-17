@@ -24,7 +24,7 @@ int cgpoint_x=0;
 int cgpoint_y=0;
 XPoint ppo;
 XPoint cpo;
-Pixmap omap;
+extern Pixmap omap;
 float dire = 0;
 enum FTYP { A = 3, L = 2, P = 1 };
  
