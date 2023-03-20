@@ -165,6 +165,8 @@ int main(int argc, char **argv)
 	    if (event.xkey.keycode == pan_key) {
 		is_pan = 1;
 		is_zoom = 0;
+	    } else if ( event.xkey.keycode == 0x09 ) {
+		    goto pois;
 	    }
 	    break;
 	case KeyRelease:
@@ -269,8 +271,9 @@ int main(int argc, char **argv)
 	    break;
 	}
     }
+pois:
     XFreeGC(display, gc);
-    //XFreePixmap(display, chartmap);
+    XFreePixmap(display, chartmap);
     XDestroyWindow(display, win);
     XCloseDisplay(display);
     exit(0);
