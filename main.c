@@ -67,18 +67,18 @@ int copy_points(int i);
 int main(int argc, char **argv)
 {
 
-    Colormap cmap;
+    extern Colormap cmap;
     int s_num;
     KeyCode pan_key;
 
     XEvent event;
-    int dh, dw, old_x, old_y;
+    int dh = 0, dw = 0, old_x = 0, old_y = 0;
     int sptcnt = 0;
     int is_pan = 0, is_zoom = 2;
     double zoom_orginal;
     long mask;
     Pixmap tmpmap;
-#include "attrib_type.h"
+//#include "attrib_type.h"
 //    _Xdebug = 1;
     if (argc < 2) {
 	printf("usage: ./test <data set file> <sc>\n");
@@ -398,7 +398,7 @@ int read_attrib(int i)
 	    attrib[tmp_attr_nro] = atof(spati[i].fobj->attrval[j]);
 	    break;
 	case 3:
-	    attrib[tmp_attr_nro] = (int) spati[i].fobj->attrval[j];
+	    attrib[tmp_attr_nro] = (intptr_t)  spati[i].fobj->attrval[j];
 	    break;
 	}
     }

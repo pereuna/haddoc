@@ -36,7 +36,7 @@ int main(int argc, char **argv)
     XEvent event;
     
     XPoint apo[] = { {100, 100}, {270, 110}, {200, 300}, {100, 300}, {100,100} };
-    XPoint apo2[] = { {1, 1}, {500, 1}, {500, 500}, {1, 500}, {1,1} };
+    //XPoint apo2[] = { {1, 1}, {500, 1}, {500, 500}, {1, 500}, {1,1} };
     
     display = XOpenDisplay(NULL);
     s_num = DefaultScreen(display);

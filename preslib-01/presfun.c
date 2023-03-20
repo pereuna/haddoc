@@ -48,10 +48,9 @@ int xxx = 0;
 
 void draw_complex_point(int pno)
 {
-    register int i = 0, j, k, l = 0;
+    register int i = 0, k = 0, l = 0;
     float tmp_x, tmp_y, tmp_l, tmp_t;
     int close = 0;
-    int ftime = 1;
     int tmp_attr = CTXP(attr[2] + attr[4] - attr[0]);	//FIXME
     
     for (i = 0; i < narepoints - 1; i++) {
@@ -61,7 +60,6 @@ void draw_complex_point(int pno)
 	    dire += M_PI;
 	}
 	tmp_t = LEN(i + 1, i);
-      taas:
 	tmp_x = cos(dire) * tmp_attr;
 	tmp_y = sin(dire) * tmp_attr;
 	tmp_l = hypot(tmp_x, tmp_y);
@@ -186,7 +184,6 @@ void calculate_cg(void)
 
 void rotate_point_x(XPoint * points)
 {
-    register int i;
     register float h, a;
 
     h = hypot(points->x, points->y);
