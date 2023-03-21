@@ -119,7 +119,7 @@ int main(int argc, char **argv)
 
 
     gc = XCreateGC(display, win, 0, NULL);
-
+    
     XSetForeground(display, gc, WhitePixel(display, s_num));
     XFillRectangle(display, win, gc, 0, 0, mapw, maph);
 
@@ -283,7 +283,7 @@ pois:
 int test_paint(int spcnt)
 {
     register int i = 0, j = 0, k = 0;
-    int tmp_x, tmp_y;
+    int tmp_x = 0, tmp_y = 0;
     int prior = 0;
 
     for (j = 0; j < 10; j++) {

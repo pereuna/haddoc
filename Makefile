@@ -18,12 +18,12 @@ $(SUBDIRS):
 all:	test
 
 .c.o:
-	gcc -c -g -Wall -O3  $(CFLAGS) $(INC) $<
+	gcc -c -g -Wall  $(CFLAGS) $(INC) $<
 .cc.o:
 	g++ -c  -Wall $(CFLAGS)  $(INC) $< 
 
 test: $(OBJ) preslib-01/libpres.a
-	gcc -Wall -g -O3 $(CFLAGS) $(OBJ) $(LIB) $(LIBDIR) $(INC) -o test
+	gcc -Wall -g $(CFLAGS) $(OBJ) $(LIB) $(LIBDIR) $(INC) -o test
 
 clean:
 	rm -f *.o *~ core test

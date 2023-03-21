@@ -80,7 +80,7 @@ Pixmap finish_map(Display * d)
 int init_preslib(Display * d, Window w, int x, int y)
 {
     int i;
-    _Xdebug = 1;
+    //_Xdebug = 1;
     win = w;
     display = d;
  
@@ -94,7 +94,7 @@ int init_preslib(Display * d, Window w, int x, int y)
     chartmap = XCreatePixmap(display, win,
 			     x, y, DefaultDepth(display, s_num));
 
-    gc = XCreateGC(display, win, 0, NULL);
+    //gc = XCreateGC(display, win, 0, NULL);
 
     XSetForeground(display, gc, WhitePixel(display, s_num));
     XFillRectangle(display, chartmap, gc, 0, 0, x, y);
