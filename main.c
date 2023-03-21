@@ -334,11 +334,15 @@ int do_spatial(void)
 {
     int i, j, cnt = 0;
     
-    spati = (struct spatial_point *) malloc(sizeof(struct spatial_point));
+    //spati = (struct spatial_point *) malloc(sizeof(struct spatial_point));
 
     for (i = 0; i < objcnt; i++) {
 	for (j = 0; j < feature_obj[i].npoints[0]; j++) {
-	    spati = (struct spatial_point *) realloc(spati, (cnt + 1) * sizeof(struct spatial_point));
+		if (cnt == 0) {
+			spati = (struct spatial_point *) malloc(sizeof(struct spatial_point));
+		} else {
+			spati = (struct spatial_point *) realloc(spati, (cnt + 1) * sizeof(struct spatial_point));
+		}
 	    spati[cnt].xp.x = scale_x(feature_obj[i].points[0][j].x);
 	    spati[cnt].xp.y = scale_y(feature_obj[i].points[0][j].y);
 	    spati[cnt].fobj = feature_obj + i;
@@ -367,13 +371,14 @@ void swap(struct spatial_point v[], int i, int j)
 
 void qs(struct spatial_point v[], int n)
 {
-    int i, last;
+    int i = 0, last = 0;
 
     if (n <= 1)
 	return;
     swap(v, 0, rand() % n);
     last = 0;
     for (i = 0; i < n; i++) {
+	//printf("x,y = %d, %d\n", (int)v[i].xp.x, (int)v[i].xp.y);
 	if (v[i].xp.y < v[0].xp.y) {
 	    swap(v, ++last, i);
 	} else if ((v[i].xp.y == v[0].xp.y) && (v[i].xp.x < v[0].xp.x)) {

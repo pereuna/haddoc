@@ -8,7 +8,7 @@ struct obj *feature_obj;
 char *data_set_file;
 struct edges ed; 
 extern int objcnt;
-
+struct dspm_ dspm;
 int read_file(void);
 
 int main(int argc, char **argv)
