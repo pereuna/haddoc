@@ -27,10 +27,11 @@ XPoint *area_points;
 int main(int argc, char **argv)
 {
     //Colormap cmap;
-    GC gc;
+    //GC gc;
+
     Pixmap map;
-    Window win;
-    Display *display;
+    //Window win;
+    //Display *display;
 
     int s_num;
     XEvent event;
